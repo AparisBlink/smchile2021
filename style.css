@@ -2,6 +2,7 @@
 :root {
 --colordeg: #E94287;
 --colordeg2: #EC6608;
+--colorppal: #E94287;
 };
 
 
@@ -50,6 +51,7 @@ font-family: 'Open Sans', sans-serif */
 		margin-top: 30px;
 	}
 
+/*HEADER*/
 	.content_type_clase_smchile2021 #actividad .content .header .title img,
 	.content_type_clase_smchile2021 #actividad .content .header .chapter {
 		display: none;
@@ -94,6 +96,7 @@ font-family: 'Open Sans', sans-serif */
 		font-weight: 900;
 		line-height: 1.1rem;
 	}
+/*---*/
 
 	.content_type_clase_smchile2021 #actividad .slide_content_type_1 .pregunta .texto_curso,
 	.content_type_clase_smchile2021 #actividad .texto_curso,
