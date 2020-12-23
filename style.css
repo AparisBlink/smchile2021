@@ -612,39 +612,50 @@ font-family: 'Open Sans', sans-serif */
 	-webkit-border-radius: 0;
 	   -moz-border-radius: 0;
 	        border-radius: 0;
-	padding: 6px 15px;
+	padding: 0;
 	text-align: center;
+    border: 0;
+    text-align: left;
+    font-family: 'Coming Soon', cursive;
+    color: #009EE3;
+    border: 0;
 }
 
 /* Caja 3 */
 .bck-box.bck-box3 {
 	position: relative;
-	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
-	   -moz-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
-	        box-shadow: 1px 1px 1px rgba(0,0,0,.5);
-	-webkit-transform: rotate(2deg);
-	   -moz-transform: rotate(2deg);
-	    -ms-transform: rotate(2deg);
-	     -o-transform: rotate(2deg);
-	        transform: rotate(2deg);
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	        box-shadow: none;
+	-webkit-transform: none;
+	   -moz-transform: none;
+	    -ms-transform: none;
+	     -o-transform: none;
+	        transform: none;
+	        border: 0;
+	background: #F0F0F0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .bck-box.bck-box3 .bck-title {
-	position: absolute;
+	position: relative;
 	top: 0;
-	left: 50%;
-	-webkit-transform: translate(-50%,-50%);
-	   -moz-transform: translate(-50%,-50%);
-	    -ms-transform: translate(-50%,-50%);
-	     -o-transform: translate(-50%,-50%);
-	        transform: translate(-50%,-50%);
+	left: 0;
+	-webkit-transform: none;
+	   -moz-transform: none;
+	    -ms-transform: none;
+	     -o-transform: none;
+	        transform: none;
 	display: inline-block;
-	border: 1px solid #10a0c6;
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	        border-radius: 10px;
+	border: 0;
+	-webkit-border-radius: 0;
+	   -moz-border-radius: 0;
+	        border-radius: 0;
 	background: #fff;
-	padding: 0 6px;
+	padding: inherit;
+	background: #F0F0F0;
 }
 
 .bck-box.bck-box3 .bck-title p {
@@ -652,7 +663,7 @@ font-family: 'Open Sans', sans-serif */
 }
 
 .bck-box.bck-box3 .bck-content {
-	margin-top: 15px;
+	margin-top: inherit;
 }
 
 /*TABLA POR DEFECTO*/
