@@ -19,6 +19,8 @@ font-family: 'Open Sans', sans-serif */
 
 /* General */
 
+
+
 	body.content_type_clase_smchile2021 {
 		font-size: 1.6rem;
 		font-family: 'Open Sans',sans-serif;
@@ -27,7 +29,6 @@ font-family: 'Open Sans', sans-serif */
 	body.content_type_clase_smchile2021 #actividad .content img {
 		padding: 5px;
 	}
-
 
 	.is_app.content_type_clase_smchile2021 {
 		padding-top: 0px;
@@ -128,7 +129,7 @@ font-family: 'Open Sans', sans-serif */
 	.content_type_clase_smchile2021 #actividad .slide_content_type_1 .pregunta .texto_curso,
 	.content_type_clase_smchile2021 #actividad .texto_curso,
 	.html-book {
-		font-size: 1.7rem;
+		font-size: 1.6rem;
 	}
 
 	.texto_curso p:last-of-type {
@@ -440,7 +441,7 @@ font-family: 'Open Sans', sans-serif */
     position: absolute;
     margin-top: 18px;
     left: 0;
-    bottom: 0;
+    margin-top: 20px;
 }
 
 
@@ -561,30 +562,56 @@ font-family: 'Open Sans', sans-serif */
     background-color: #414141;
 }
 
-/*CAJAS*/
+/* --- CAJAS ---*/
 
 .bck-box {
-	margin: 10px;
-	border: 2px solid #10a0c6;
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	        border-radius: 10px;
+	margin: 10px 0;
+    border: 2px solid var(--colorppal);
+	-webkit-border-radius: 0;
+	   -moz-border-radius: 0;
+	        border-radius: 0;
 	background: #fff;
-	padding: 6px;
+	padding: 0px;
+}
+.bck-box .bck-title {
+    padding: 10px;
+}
+.bck-box .bck-content {
+    padding: 10px;
 }
 
 .bck-box .bck-content p:last-child {
 	margin-bottom: 0;
 }
+/* CAJA 1*/
+.bck-box.bck-box1 {
+	border: 0;
+}
+
+.bck-box.bck-box1 .bck-content {
+    background: #F4F0E7;
+    border-left: 2px solid var(--colorppal);
+}
+.bck-box.bck-box1 .bck-title {
+    background: var(--colorppal);
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    padding: 5px 10px 0 10px;
+}
+.bck-box.bck-box1 .bck-title p {
+    margin-bottom: 5px;
+}
 
 /* Caja 2 */
 .bck-box.bck-box2 {
-	-webkit-box-shadow: 0 3px 0 #BCBDC0;
-	   -moz-box-shadow: 0 3px 0 #BCBDC0;
-	        box-shadow: 0 3px 0 #BCBDC0;
-	-webkit-border-radius: 50%;
-	   -moz-border-radius: 50%;
-	        border-radius: 50%;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	        box-shadow: none;
+	-webkit-border-radius: 0;
+	   -moz-border-radius: 0;
+	        border-radius: 0;
 	padding: 6px 15px;
 	text-align: center;
 }
