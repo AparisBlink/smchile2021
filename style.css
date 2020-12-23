@@ -20,8 +20,8 @@ font-family: 'Open Sans', sans-serif */
 /* General */
 
 	body.content_type_clase_smchile2021 {
-		font-size: 1.8rem;
-		font-family: CamphorPro;
+		font-size: 1.6rem;
+		font-family: 'Open Sans',sans-serif;
 	}
 
 	body.content_type_clase_smchile2021 #actividad .content img {
@@ -70,8 +70,11 @@ font-family: 'Open Sans', sans-serif */
 
 	.content_type_clase_smchile2021 #actividad .content .header .title {
 		margin: -40px 0 20px;
-		background: #10A0C6;
 		padding: 20px 97px;
+		-moz-background: linear-gradient(99deg, var(--colordeg) 0%, var(--colordeg2) 100%);
+		-webkit-background: linear-gradient(99deg, var(--colordeg) 0%, var(--colordeg2) 100%);
+		background: linear-gradient(99deg, var(--colordeg) 0%, var(--colordeg2) 100%);
+   		min-height: 90px;
 	}
 
 	.content_type_clase_smchile2021 #actividad .content .slide-concatenate .header .title {
@@ -79,16 +82,17 @@ font-family: 'Open Sans', sans-serif */
 	}
 
 	.content_type_clase_smchile2021 #actividad .content .header .title h3 {
+		font-family: 'Open Sans';
 		position: relative;
 		display: block;
 		width: 100%;
 		margin: 0;
-		padding: 0;
 		color: #fff;
-		font-size: 1.4rem;
 		font-weight: 700;
-		text-align: right;
-	}
+	    font-size: 2.5rem;
+	    text-align: left;
+	    padding-top: 11px;
+		}
 
 	.content_type_clase_smchile2021 #actividad .content .header .title h3 span {
 		float: left;
@@ -96,12 +100,35 @@ font-family: 'Open Sans', sans-serif */
 		font-weight: 900;
 		line-height: 1.1rem;
 	}
+	.content_type_clase_smchile2021 #actividad .content .header .title .header1 {
+		position: absolute;
+	    background: white;
+	    color: #e94286;
+	    width: 65px;
+	    height: 50px;
+	    left: -97px;
+	    text-align: center;
+	    padding-top: 0;
+	    font-size: 49px;
+	    font-family: 'Open Sans', sans-serif;
+	}
+	.content_type_clase_smchile2021 #actividad .content .header .title .header1:before {
+		width: 0;
+	    height: 0;
+	    border-top: 25px solid transparent;
+	    border-bottom: 25px solid transparent;
+	    border-left: 22px solid white;
+	    position: absolute;
+	    content: "";
+	    right: -22px;
+	    top: 0px;
+	}
 /*---*/
 
 	.content_type_clase_smchile2021 #actividad .slide_content_type_1 .pregunta .texto_curso,
 	.content_type_clase_smchile2021 #actividad .texto_curso,
 	.html-book {
-		font-size: 1.8rem;
+		font-size: 1.7rem;
 	}
 
 	.texto_curso p:last-of-type {
@@ -345,48 +372,50 @@ font-family: 'Open Sans', sans-serif */
 
 /**/
 
+/* --- TÍTULOS --- */
+
 /*TITULO 1*/
 
 .bck-title1 {
-	display: inline-block;
-	-webkit-box-shadow: 0 0 0 2px #10a0c6;
-	   -moz-box-shadow: 0 0 0 2px #10a0c6;
-	        box-shadow: 0 0 0 2px #10a0c6;
-	border: 2px solid #fff;
-	background: #9ac9df;
-	padding: 4px 8px;
-	color: #10a0c6;
-    font-family: GhostKid;
+    position: relative;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+    letter-spacing: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #5C676D;
+    font-weight: 700;
+    padding: 0;
+    background: none;
+    display: block;
+    margin: 0px 0px 20px 0px;
     font-size: 2.4rem;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px #fff,
-    			 1px 0px #fff,
-    			 1px -1px #fff,
-    			 0px -1px #fff,
-    			 -1px -1px #fff,
-    			 -1px 0px #fff,
-    			 -1px 1px #fff,
-    			 0px 1px #fff,
-    			 2px 2px #10a0c6;
-    line-height: 1;
+    border: 0;
 }
 
 /*TITULO 2*/
 
 .bck-title2 {
-	display: block;
-    color: #f58220;
-    font-family: GhostKid;
-    font-size: 2.4rem;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px #fff,
-    			 1px 0px #fff,
-    			 1px -1px #fff,
-    			 0px -1px #fff,
-    			 -1px -1px #fff,
-    			 -1px 0px #fff,
-    			 -1px 1px #fff,
-    			 0px 1px #fff;
+    position: relative;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+    letter-spacing: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #5C676D;
+    font-weight: 700;
+    padding: 0;
+    background: none;
+    display: block;
+    margin: 0px 0px 20px 0px;
+    font-size: 2.0rem;
+    border: 0;
 }
 
 /* Lists */
