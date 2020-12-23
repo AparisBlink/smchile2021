@@ -413,10 +413,36 @@ font-family: 'Open Sans', sans-serif */
     padding: 0;
     background: none;
     display: block;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 15px 0px;
     font-size: 2.0rem;
     border: 0;
 }
+
+/* Titulo 3 */
+.bck-title3 {
+    background: var(--colorppal);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: white;
+    padding: 4px 10px;
+    font-size: inherit;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.bck-title3:before {
+    content: "";
+    border-bottom: 3px solid var(--colorppal);
+    width: 100%;
+    position: absolute;
+    margin-top: 18px;
+    left: 0;
+    bottom: 0;
+}
+
 
 /* Lists */
 
