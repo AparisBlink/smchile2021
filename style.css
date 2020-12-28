@@ -8,13 +8,18 @@
 
 /* Fonts */
 
-/* Open Sans
-font-family: 'Open Sans', sans-serif */
+/* Open Sans */
+/*font-family: 'Open Sans', sans-serif */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
-/*font-family: 'Coming Soon', cursive;*/
+/*font-family: 'Coming Soon', cursive */
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 
+/*font-family: 'PT Sans Narrow', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+
+/*font-family: 'PT Sans Narrow', sans-serif;*/
 /* */
 
 /* General */
@@ -444,6 +449,15 @@ font-family: 'Open Sans', sans-serif */
     margin-top: 20px;
 }
 
+/*Titulo 4*/
+.bck-title4 {
+    color: #ADCD57;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
 
 /* Lists */
 
@@ -664,6 +678,14 @@ font-family: 'Open Sans', sans-serif */
 
 .bck-box.bck-box3 .bck-content {
 	margin-top: inherit;
+}
+
+/* CAJA 4 */
+.bck-box.bck-box4 {
+    border-image: url(images/bordecaja4) stretch;
+    position: relative;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
 }
 
 /*TABLA POR DEFECTO*/
