@@ -457,6 +457,28 @@
     margin-bottom: 15px;
 }
 
+/* Titulo 5 */
+.bck-title5 {
+    font-size: initial;
+    background: #ADCD57;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+}
+.bck-title5:after {
+    right: -11px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 24px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 0 solid transparent;
+    border-left: 14px solid #ADCD57;
+    bottom: 0;
+}
 
 
 /* Lists */
