@@ -606,8 +606,8 @@
     margin-right: 4px;
     line-height: 1.55rem;
     font-size: 1.7rem;
-    vertical-align: -webkit-baseline-middle;
-    -webkit-vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
+    -webkit-vertical-align: middle;
 }
 
 /*LISTA ORDENADA 3*/
@@ -652,8 +652,8 @@
 }
 
 /* Lista ordenada 5 - L.abc auto*/
-.content .bck-ol2 li:before,
-.cke_contents .bck-ol2 li:before {
+.content .bck-ol5 li:before,
+.cke_contents .bck-ol5 li:before {
     content: counter(bck-li-counter, lower-alpha)".";
     position: relative;
     color: var(--colorppal);
