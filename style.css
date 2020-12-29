@@ -1,30 +1,25 @@
+
+/* Fonts */
+
+/* Open Sans */
+/* font-family: 'Open Sans', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/* font-family: 'Coming Soon', cursive */
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+/* font-family: 'PT Sans Narrow', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+
 /* Colores genericos estilo */
 :root {
 --colordeg: #E94287;
 --colordeg2: #EC6608;
 --colorppal: #E94287;
-};
-
-
-/* Fonts */
-
-/* Open Sans */
-/*font-family: 'Open Sans', sans-serif */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
-
-/*font-family: 'Coming Soon', cursive */
-@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
-
-/*font-family: 'PT Sans Narrow', sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
-
-
-/*font-family: 'PT Sans Narrow', sans-serif;*/
-/* */
+}
 
 /* General */
-
-
 
 	body.content_type_clase_smchile2021 {
 		font-size: 1.6rem;
@@ -704,7 +699,7 @@
 
 /* CAJA 4 */
 .bck-box.bck-box4 {
-    border-image: url(images/bordecaja4) stretch;
+    border-image: url(images/bordecaja4.png) stretch;
     position: relative;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
