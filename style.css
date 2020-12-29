@@ -421,7 +421,7 @@
 
 /* Titulo 3 */
 .bck-title3 {
-    background: var(--colorppal);
+    background-color: var(--colorppal);
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -433,6 +433,7 @@
     -webkit-border-radius: 5px 5px 0px 0px;
     -moz-border-radius: 5px 5px 0px 0px;
     border-radius: 5px 5px 0px 0px;
+    position: relative;
 }
 .bck-title3:before {
     content: "";
@@ -442,6 +443,23 @@
     margin-top: 18px;
     left: 0;
     margin-top: 20px;
+}
+.bck-title3:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorppal);
+    right: -5px;
+    bottom: -2px;
+    -moz-transform: skewX(22deg);
+    -webkit-transform: skewX(22deg);
+    -o-transform: skewX(22deg);
+    transform: skewX(22deg);
+    z-index: -5;
+    -moz-border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 /*Titulo 4*/
