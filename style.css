@@ -374,6 +374,9 @@
 /**/
 
 /* --- TÍTULOS --- */
+#actividad h4 {
+	font-size: inherit;
+}
 
 /*TITULO 1*/
 
@@ -483,6 +486,15 @@
     border-left: 14px solid #ADCD57;
     bottom: 0;
 }
+
+/* ENFASIS */
+.bck-enfasis-1 {
+    color: #EA555B;
+}
+.bck-enfasis-2 {
+    color: #12589F;
+}
+
 
 
 /* Lists */
@@ -809,6 +821,7 @@
     padding: 1px 36px;
     margin-top: 36px;
     margin-bottom: 36px;
+	font-size: 1.7rem;
 }
 
 /* CAJA 5 */
@@ -818,7 +831,6 @@
 .bck-box.bck-box5 .bck-content {
     background: #F4F0E7;
     border-left: 2px solid var(--colorppal);
-    border-top: 2px solid var(--colorppal);
 }
 .bck-box.bck-box5 .bck-title {
     background: var(--colorppal);
@@ -861,12 +873,40 @@
     font-family: 'Pt Sans Narrow', sans-serif;
     color: white;
     font-size: 1.8rem;
+    position: relative;
+}
+.bck-box6 .bck-title:after {
+	content:"";
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:url(images/bordeazulcienciaconstruccion.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:right;
+	bottom: 0;
+	right: -15px;
+
 }
 .bck-box.bck-box6 .bck-content {
     background: #EAF6FE;
 }
 /* CAJA 7 */
-
+.bck-box.bck-box7 {
+    border: 0;
+    background: #D1E0D8;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
+.bck-box7 .bck-title {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2.5rem;
+    padding: 10px 10px 5px 20px;
+}
+.bck-box7 .bck-content {
+    padding: 0px 10px 10px 20px;
+}
 
 /* CAJA 8 */
 .bck-box.bck-box8 {
@@ -875,6 +915,7 @@
     left: -12.6%;
     width: 125.5%;
     padding: 0;
+    border:0;
 }
 .bck-box8 .bck-content {
 	padding: 0;
@@ -893,6 +934,7 @@
     margin-bottom: 20px;
 }
 
+/*-----*/
 /* Icons */
 
 #actividad .player.audio {
@@ -913,6 +955,15 @@
 	width: 54px;
 	margin-top: -16px;
 }
+
+/* Icono reciclaje */
+.item-container .icon-reciclaje:before {
+    background-image: url(images/icono_reciclaje.png);
+    width: 40px;
+    height: 30px;
+}
+
+/*-----*/
 
 /* Forms */
 
