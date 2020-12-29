@@ -33,6 +33,8 @@
 				{ name: 'Énfasis 6', element: 'h4', attributes: { 'class': 'bck-enfasis-6'} },
 				{ name: 'Énfasis 7', element: 'h4', attributes: { 'class': 'bck-enfasis-7'} },
 
+				{ name: 'Icono Reciclaje', element: 'span', attributes: { 'class': 'icon icon-reciclaje' } },
+
 				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
 				{ name: 'Lista ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
 				{ name: 'Lista ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol3' } },
