@@ -2,22 +2,22 @@
 /* Durotype Aspira - Para texto general y título generales texto */
 @font-face {
 	font-family: 'Durotype Aspira';
-	src: url('fonts/Durotype - Aspira-Bold.eot');
-	src: local('☺'), url('fonts/Durotype - Aspira-Bold.woff') format('woff'), url('fonts/Durotype - Aspira-Bold.ttf') format('truetype'), url('fonts/Durotype - Aspira-Bold.svg') format('svg');
-	font-weight: bold;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Durotype Aspira';
-	src: url('fonts/Durotype - AspiraNar-Regular.eot');
-	src: local('☺'), url('fonts/Durotype - AspiraNar-Regular.woff') format('woff'), url('fonts/Durotype - AspiraNar-Regular.ttf') format('truetype'), url('fonts/Durotype - AspiraNar-Regular.svg') format('svg');
+	src: url('fonts/Durotype_AspiraNarRegular.eot');
+	src: local('☺'), url('fonts/Durotype_AspiraNarRegular.woff') format('woff'), url('fonts/Durotype_AspiraNarRegular.ttf') format('truetype'), url('fonts/Durotype_AspiraNarRegular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Durotype Aspira';
-	src: url('fonts/Durotype - AspiraNar-It.eot');
-	src: local('☺'), url('fonts/Durotype - AspiraNar-It.woff') format('woff'), url('fonts/Durotype - AspiraNar-It.ttf') format('truetype'), url('fonts/Durotype - AspiraNar-It.svg') format('svg');
+	src: url('fonts/Durotype_AspiraBold.eot');
+	src: local('☺'), url('fonts/Durotype_AspiraBold.woff') format('woff'), url('fonts/Durotype_AspiraBold.ttf') format('truetype'), url('fonts/Durotype_AspiraBold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Durotype Aspira';
+	src: url('fonts/Durotype_AspiraNarIt.eot');
+	src: local('☺'), url('fonts/Durotype_AspiraNarIt.woff') format('woff'), url('fonts/Durotype_AspiraNarIt.ttf') format('truetype'), url('fonts/Durotype_AspiraNarIt.svg') format('svg');
 	font-weight: normal;
 	font-style: italic;
 }
@@ -40,15 +40,15 @@
 /* Pixilate JollyGood - Para títulos de algunas cajas. Algo más chula e informal */
 @font-face {
 	font-family: 'Pixilate JollyGood';
-	src: url('fonts/Pixilate - JollyGood Proper Condensed Regular.eot');
-	src: local('☺'), url('fonts/Pixilate - JollyGood Proper Condensed Regular.woff') format('woff'), url('fonts/Pixilate - JollyGood Proper Condensed Regular.ttf') format('truetype'), url('fonts/Pixilate - JollyGood Proper Condensed Regular.svg') format('svg');
+	src: url('fonts/Pixilate_JollyGood_Proper_Condensed_Regular.eot');
+	src: local('☺'), url('fonts/Pixilate_JollyGood_Proper_Condensed_Regular.woff') format('woff'), url('fonts/Pixilate_JollyGood_Proper_Condensed_Regular.ttf') format('truetype'), url('fonts/Pixilate_JollyGood_Proper_Condensed_Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Pixilate JollyGood';
-	src: url('fonts/Pixilate - JollyGood Proper Condensed Bold.eot');
-	src: local('☺'), url('fonts/Pixilate - JollyGood Proper Condensed Bold.woff') format('woff'), url('fonts/Pixilate - JollyGood Proper Condensed Bold.ttf') format('truetype'), url('fonts/Pixilate - JollyGood Proper Condensed Bold.svg') format('svg');
+	src: url('fonts/Pixilate_JollyGood_Proper_Condensed_Bold.eot');
+	src: local('☺'), url('fonts/Pixilate_JollyGood_Proper_Condensed_Bold.woff') format('woff'), url('fonts/Pixilate_JollyGood_Proper_Condensed_Bold.ttf') format('truetype'), url('fonts/Pixilate_JollyGood_Proper_Condensed_Bold.svg') format('svg');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -71,7 +71,7 @@
 	}
 
 	body.content_type_clase_smchile2021 #actividad .content img {
-		padding: 5px;
+		padding: 0px;
 	}
 
 	.is_app.content_type_clase_smchile2021 {
