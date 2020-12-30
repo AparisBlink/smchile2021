@@ -1,29 +1,73 @@
+/* FUENTES */
+/* Durotype Aspira - Para texto general y título generales texto */
+@font-face {
+	font-family: 'Durotype Aspira';
+	src: url('fonts/Durotype - Aspira-Bold.eot');
+	src: local('☺'), url('fonts/Durotype - Aspira-Bold.woff') format('woff'), url('fonts/Durotype - Aspira-Bold.ttf') format('truetype'), url('fonts/Durotype - Aspira-Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Durotype Aspira';
+	src: url('fonts/Durotype - AspiraNar-Regular.eot');
+	src: local('☺'), url('fonts/Durotype - AspiraNar-Regular.woff') format('woff'), url('fonts/Durotype - AspiraNar-Regular.ttf') format('truetype'), url('fonts/Durotype - AspiraNar-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Durotype Aspira';
+	src: url('fonts/Durotype - AspiraNar-It.eot');
+	src: local('☺'), url('fonts/Durotype - AspiraNar-It.woff') format('woff'), url('fonts/Durotype - AspiraNar-It.ttf') format('truetype'), url('fonts/Durotype - AspiraNar-It.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+ /* Segoe Pr - Es la fuente para texto escrito a mano */
+@font-face {
+	font-family: 'Segoe Pr';
+	src: url('fonts/segoepr.eot');
+	src: local('☺'), url('fonts/segoepr.woff') format('woff'), url('fonts/segoepr.ttf') format('truetype'), url('fonts/segoepr.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Segoe Pr';
+	src: url('fonts/segoeprb.eot');
+	src: local('☺'), url('fonts/segoeprb.woff') format('woff'), url('fonts/segoeprb.ttf') format('truetype'), url('fonts/segoeprb.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
 
-/* Fonts */
+/* Pixilate JollyGood - Para títulos de algunas cajas. Algo más chula e informal */
+@font-face {
+	font-family: 'Pixilate JollyGood';
+	src: url('fonts/Pixilate - JollyGood Proper Condensed Regular.eot');
+	src: local('☺'), url('fonts/Pixilate - JollyGood Proper Condensed Regular.woff') format('woff'), url('fonts/Pixilate - JollyGood Proper Condensed Regular.ttf') format('truetype'), url('fonts/Pixilate - JollyGood Proper Condensed Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Pixilate JollyGood';
+	src: url('fonts/Pixilate - JollyGood Proper Condensed Bold.eot');
+	src: local('☺'), url('fonts/Pixilate - JollyGood Proper Condensed Bold.woff') format('woff'), url('fonts/Pixilate - JollyGood Proper Condensed Bold.ttf') format('truetype'), url('fonts/Pixilate - JollyGood Proper Condensed Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
 
-/* Open Sans */
-/* font-family: 'Open Sans', sans-serif */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
-
-/* font-family: 'Coming Soon', cursive */
-@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
-
-/* font-family: 'PT Sans Narrow', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
-
-
+/*---------------------------*/
 /* Colores genericos estilo */
 :root {
 --colordeg: #E94287;
 --colordeg2: #EC6608;
 --colorppal: #E94287;
+--colorsec:#634634;
 }
+/*-------------------------*/
 
 /* General */
 
 	body.content_type_clase_smchile2021 {
 		font-size: 1.6rem;
-		font-family: 'Open Sans',sans-serif;
+		font-family: 'Durotype Aspira',sans-serif;
 	}
 
 	body.content_type_clase_smchile2021 #actividad .content img {
@@ -83,13 +127,13 @@
 	}
 
 	.content_type_clase_smchile2021 #actividad .content .header .title h3 {
-		font-family: 'Open Sans';
+		font-family: 'Durotype Aspira';
 		position: relative;
 		display: block;
 		width: 100%;
 		margin: 0;
 		color: #fff;
-		font-weight: 700;
+		font-weight: bold;
 	    font-size: 2.5rem;
 	    text-align: left;
 	    padding-top: 11px;
@@ -111,7 +155,7 @@
 	    text-align: center;
 	    padding-top: 0;
 	    font-size: 49px;
-	    font-family: 'Open Sans', sans-serif;
+	    font-family: 'Durotype Aspira', sans-serif;
 	}
 	.content_type_clase_smchile2021 #actividad .content .header .title .header1:before {
 		width: 0;
@@ -389,9 +433,9 @@
     -webkit-text-shadow: none;
     text-shadow: none;
     letter-spacing: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Durotype Aspiras', sans-serif;
     color: #5C676D;
-    font-weight: 700;
+    font-weight: bold;
     padding: 0;
     background: none;
     display: block;
@@ -411,9 +455,9 @@
     -webkit-text-shadow: none;
     text-shadow: none;
     letter-spacing: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Durotype Aspira', sans-serif;
     color: #5C676D;
-    font-weight: 700;
+    font-weight: bold;
     padding: 0;
     background: none;
     display: block;
@@ -431,8 +475,8 @@
     color: white;
     padding: 4px 10px;
     font-size: inherit;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-family: 'Durotype Aspira', sans-serif;
+    font-weight: bold;
     -webkit-border-radius: 5px 5px 0px 0px;
     -moz-border-radius: 5px 5px 0px 0px;
     border-radius: 5px 5px 0px 0px;
@@ -757,7 +801,7 @@
 	text-align: center;
     border: 0;
     text-align: left;
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Segoe Pr', cursive;
     color: #009EE3;
     border: 0;
 }
@@ -813,8 +857,8 @@
     -webkit-border-image: url(images/bordecaja4.png) stretch;
     border-image: url(images/bordecaja4.png) stretch;
     position: relative;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: 700;
+    font-family: 'Pixilate JollyGood', sans-serif;
+    font-weight: bold;
     border-image-slice: 120;
     border-image-width: 60px;
     border-image-outset: 12 7;
@@ -870,7 +914,7 @@
     background: #009EE3;
     display: inline-block;
     padding: 2px 12px;
-    font-family: 'Pt Sans Narrow', sans-serif;
+    font-family: 'Pixilate JollyGood', sans-serif;
     color: white;
     font-size: 1.8rem;
     position: relative;
@@ -900,7 +944,7 @@
     border-radius: 25px;
 }
 .bck-box7 .bck-title {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Pixilate JollyGood', sans-serif;
     font-size: 2.5rem;
     padding: 10px 10px 5px 20px;
 }
@@ -1038,4 +1082,25 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 	width: auto;
 	height: 100px !important;
 	padding: 0;
+}
+
+
+/*----- unittag ------*/
+/*---uniittag_intro */
+.unittag_intro :root {
+--colordeg: #000000;
+--colordeg2: #5B676C;
+--colorppal: #5C676D;
+}
+/*---uniittag_bloque2 */
+.unittag_bloque2 :root {
+--colordeg: #00A4B7;
+--colordeg2: #50AE2F;
+--colorppal: #00A4B7;
+}
+/*---uniittag_bloque3 */
+.unittag_bloque3 :root {
+--colordeg: #8C338B;
+--colordeg2: #C8308A;
+--colorppal: #82338B;
 }
