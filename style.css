@@ -66,7 +66,7 @@
 /* General */
 
 	body.content_type_clase_smchile2021 {
-		font-size: 1.6rem;
+		font-size: 1.7rem;
 		font-family: 'Durotype Aspira',sans-serif;
 	}
 
@@ -173,7 +173,7 @@
 	.content_type_clase_smchile2021 #actividad .slide_content_type_1 .pregunta .texto_curso,
 	.content_type_clase_smchile2021 #actividad .texto_curso,
 	.html-book {
-		font-size: 1.6rem;
+		font-size: 1.7rem;
 	}
 
 	.texto_curso p:last-of-type {
@@ -430,14 +430,14 @@
     -webkit-text-shadow: none;
     text-shadow: none;
     letter-spacing: 0;
-    font-family: 'Durotype Aspiras', sans-serif;
+    font-family: 'Durotype Aspira', sans-serif;
     color: #5C676D;
     font-weight: bold;
     padding: 0;
     background: none;
     display: block;
     margin: 0px 0px 20px 0px;
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     border: 0;
 }
 
@@ -459,7 +459,7 @@
     background: none;
     display: block;
     margin: 0px 0px 15px 0px;
-    font-size: 2.0rem;
+    font-size: 2.2rem;
     border: 0;
 }
 
@@ -486,7 +486,7 @@
     height: 100%;
     background-color: #ADCD57;
     right: -5px;
-    bottom: -2px;
+    bottom: 0px;
     -moz-transform: skewX(22deg);
     -webkit-transform: skewX(22deg);
     -o-transform: skewX(22deg);
@@ -495,6 +495,9 @@
     -moz-border-top-right-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
 }
 
 /*Titulo 4*/
@@ -505,28 +508,7 @@
     margin-bottom: 15px;
 }
 
-/* Titulo 5 */
-.bck-title5 {
-    font-size: initial;
-    background: #ADCD57;
-    color: white;
-    padding: 3px 7px;
-    border-radius: 5px;
-    display: inline-block;
-    position: relative;
-}
-.bck-title5:after {
-    right: -11px;
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 24px solid transparent;
-    border-bottom: 0px solid transparent;
-    border-right: 0 solid transparent;
-    border-left: 14px solid #ADCD57;
-    bottom: 0;
-}
+
 
 /* ENFASIS */
 .bck-enfasis-1 {
@@ -581,7 +563,7 @@
     content: counter(bck-li-counter)".";
     position: relative;
     display: inline-block;
-    top: -2px;
+    top: -1px;
     left: -3px;
     width: auto;
     height: auto;
@@ -605,8 +587,7 @@
 .content .bck-ol1 li:before,
 .cke_contents .bck-ol1 li:before {
 	content: counter(bck-li-counter);
-    font-size: 1.7rem;
-    line-height: 2.3rem;
+    line-height: 2.7rem;
     top: -2px;
     left: -3px;
     height: 24px;
@@ -649,7 +630,6 @@
     width: auto;
     margin-right: 4px;
     line-height: 1.55rem;
-    font-size: 1.7rem;
     vertical-align: middle;
     -webkit-vertical-align: middle;
 }
@@ -663,7 +643,6 @@
     border: 0;
     background: none;
     color: var(--colorppal);
-    font-size: 2rem;
 }
 
 
@@ -671,8 +650,7 @@
 .content .bck-ol4 li:before,
 .cke_contents .bck-ol4 li:before {
 	content: counter(bck-li-counter);
-    font-size: 1.7rem;
-    line-height: 2.3rem;
+    line-height: 2.7rem;
     top: -2px;
     left: -3px;
     height: 24px;
@@ -710,7 +688,6 @@
     width: auto;
     margin-right: 4px;
     line-height: 1.55rem;
-    font-size: 1.7rem;
     vertical-align: middle;
     -webkit-vertical-align: middle;
 }
@@ -855,14 +832,14 @@
     border-image: url(images/bordecaja4.png) stretch;
     position: relative;
     font-family: 'Pixilate JollyGood', sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     border-image-slice: 120;
     border-image-width: 60px;
     border-image-outset: 12 7;
     padding: 1px 36px;
     margin-top: 36px;
     margin-bottom: 36px;
-	font-size: 1.7rem;
+	font-size: 1.8rem;
 }
 
 /* CAJA 5 */
