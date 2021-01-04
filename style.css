@@ -942,10 +942,10 @@
 /*CAJAS ASIGNATURAS*/
 /********LENGUA*********/
 /*CAJA 10 DESAFIO EN CONSTRUCC.*/
-.bck-box.bck-box10 {
+.bck-box.bck-box10{
     border: 0;
 }
-.bck-box.bck-box10 .bck-title {
+.bck-box.bck-box10 .bck-title{
 	background: #FBC25E;
     border-top: 2px solid #000000;
     display: inline-block;
@@ -956,7 +956,7 @@
     border-left: 2px solid #000000;
     position: relative;
 }
-.bck-box10 .bck-title:after {
+.bck-box10 .bck-title:after{
     content: "";
     position: absolute;
     width: 110%;
@@ -969,7 +969,7 @@
     right: -15px;
 }
 
-.bck-box.bck-box10 .bck-content {
+.bck-box.bck-box10 .bck-content{
     ackground: #FFEED5;
     border-left: 2px solid #000000;
 }
