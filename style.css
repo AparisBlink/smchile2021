@@ -938,6 +938,42 @@
 .bck-box8 .bck-content {
 	padding: 0;
 }
+
+/*CAJAS ASIGNATURAS*/
+/********LENGUA*********/
+/*CAJA 10 DESAFIO EN CONSTRUCC.*/
+.bck-box.bck-box10 {
+    border: 0;
+}
+.bck-box.bck-box10 .bck-title {
+	background: #FBC25E;
+    border-top: 2px solid #000000;
+    display: inline-block;
+    padding: 2.2px 12px;
+    font-family: 'Pixilate JollyGood', sans-serif;
+    color: white;
+    font-size: 1.8rem;
+    border-left: 2px solid #000000;
+    position: relative;
+}
+.bck-box10 .bck-title:after {
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 107.6%;
+    background: url(images/bordeamarillodesafio.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    bottom: 0px;
+    right: -15px;
+}
+
+.bck-box.bck-box10 .bck-content {
+    ackground: #FFEED5;
+    border-left: 2px solid #000000;
+}
+
 /*TABLA POR DEFECTO*/
 
 .content table:not(.rf-tablegrid) td,
