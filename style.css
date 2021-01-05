@@ -759,6 +759,119 @@
     -webkit-vertical-align: middle;
 }
 
+/*LISTA ORDENADA 9 morada*/
+.content .bck-ol9 li:before,
+.cke_contents .bck-ol9 li:before {
+	-webkit-box-shadow: none;
+       -moz-box-shadow: none;
+    		box-shadow: none;
+    border: 0;
+    background: none;
+    color: #82338B;
+}
+
+/*LISTA ORDENADA 10 morada*/
+.content .bck-ol10 li:before,
+.cke_contents .bck-ol10 li:before {
+	content: counter(bck-li-counter);
+    line-height: 2.7rem;
+    top: -2px;
+    left: -3px;
+    height: 24px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #82338B;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    position: relative;
+    display: inline-block;
+    padding: 0px 7px;
+    vertical-align: middle;
+    -webkit-vertical-align: middle;
+}
+
+/* Lista ordenada 11 morada*/
+.content .bck-ol11 li:before,
+.cke_contents .bck-ol11 li:before {
+    content: counter(bck-li-counter, lower-alpha)".";
+    position: relative;
+    color: #82338B;
+    background: none;
+    border: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: inline-block;
+    width: auto;
+    margin-right: 4px;
+    line-height: 1.55rem;
+    vertical-align: middle;
+    -webkit-vertical-align: middle;
+}
+
+/*LISTA ORDENADA 12 verde*/
+.content .bck-ol12 li:before,
+.cke_contents .bck-ol12 li:before {
+	-webkit-box-shadow: none;
+       -moz-box-shadow: none;
+    		box-shadow: none;
+    border: 0;
+    background: none;
+    color: #86BC25;
+}
+
+/*LISTA ORDENADA 13 verde*/
+.content .bck-ol13 li:before,
+.cke_contents .bck-ol13 li:before {
+	content: counter(bck-li-counter);
+    line-height: 2.7rem;
+    top: -2px;
+    left: -3px;
+    height: 24px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #86BC25;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    position: relative;
+    display: inline-block;
+    padding: 0px 7px;
+    vertical-align: middle;
+    -webkit-vertical-align: middle;
+}
+
+/* Lista ordenada 14 verde*/
+.content .bck-ol14 li:before,
+.cke_contents .bck-ol14 li:before {
+    content: counter(bck-li-counter, lower-alpha)".";
+    position: relative;
+    color: #86BC25;
+    background: none;
+    border: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: inline-block;
+    width: auto;
+    margin-right: 4px;
+    line-height: 1.55rem;
+    vertical-align: middle;
+    -webkit-vertical-align: middle;
+}
 
 /*LISTA DESORDENADA POR DEFECTO*/
 .texto_curso ul li:before, 
@@ -785,6 +898,24 @@
     width: 6px;
     height: 6px;
     background-color: #00a4b7;
+}
+
+/*LISTA DESORDENADA 3 morada*/
+#actividad .content .texto_curso .bck-ul3 li:before,
+#actividad .content .workspace ul li .bck-ul3 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul3 li:before{
+    width: 6px;
+    height: 6px;
+    background-color: #82338B;
+}
+
+/*LISTA DESORDENADA 4 verde*/
+#actividad .content .texto_curso .bck-ul4 li:before,
+#actividad .content .workspace ul li .bck-ul4 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul4 li:before{
+    width: 6px;
+    height: 6px;
+    background-color: #86BC25;
 }
 
 /* --- CAJAS ---*/
