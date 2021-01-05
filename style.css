@@ -702,10 +702,21 @@
 }
 
 /*LISTA DESORDENADA POR DEFECTO*/
-.texto_curso ul li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
+.texto_curso ul li:before, 
+.workspace ul li ul li:before, 
+.cke_contents ul li:before {
     width: 6px;
     height: 6px;
     background-color: #414141;
+}
+
+/*LISTA DESORDENADA 1 ROSA*/
+#actividad .content .texto_curso .bck-ul1 li:before,
+#actividad .content .workspace ul li .bck-ul1 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul1 li:before{
+    width: 6px;
+    height: 6px;
+    background-color: var(--colorppal);
 }
 
 /* --- CAJAS ---*/
