@@ -1471,9 +1471,11 @@
 
 /* CAJA 18 DOC. */
 .bck-box.bck-box18 {
-    border: 0;
-    background-color: #ECE8D8;
+	border: 1PX SOLID #eff4f9;
+    background-color: #eff4f9;
+    BORDER-RADIUS: 10PX;
 }
+
 .bck-box.bck-box18 .bck-title {
 	background: #ECE8D8;
     display: inline-block;
