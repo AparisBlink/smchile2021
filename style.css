@@ -1292,6 +1292,26 @@
     background: #FFFAD2;
 }
 
+/**************MATEMÁTICA**************/
+/*CAJA 13 */
+.bck-box.bck-box13{
+    margin: 10px 0;
+    border: 2px solid #FCD259;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 10px;
+    background: #fff;
+    padding: 0px;
+}
+
+.bck-box.bck-box13 .bck-title{
+	padding: 10px;
+}
+
+.bck-box.bck-box13 .bck-content{
+	padding: 10px;
+}
+
 /*TABLA POR DEFECTO*/
 
 .content table:not(.rf-tablegrid) td,
