@@ -1469,6 +1469,38 @@
     transform: skewX(20deg);
 }
 
+/* CAJA 18 DOC. */
+.bck-box.bck-box18 {
+    border: 0;
+    background-color: #ECE8D8;
+}
+.bck-box.bck-box18 .bck-title {
+	background: #ECE8D8;
+    display: inline-block;
+    padding: 2px 12px;
+    color: #000000;
+    font-size: 1.8rem;
+    position: relative;
+    TOP: 10px;
+}
+.bck-box18 .bck-title:after {
+	content: "";
+    position: absolute;
+    right: -9px;
+    TOP: 0px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 9px solid #ECE8D8;
+    border-bottom: 15px solid transparent;
+}
+
+.bck-box.bck-box18 .bck-content {
+	background: #EFF4F9;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
 /*TABLA POR DEFECTO*/
 
 .content table:not(.rf-tablegrid) td,
