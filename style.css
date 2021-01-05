@@ -517,7 +517,35 @@
     margin-bottom: 15px;
 }
 
+/*Titulo 5*/
+.bck-title5 {
+	background-color: #0578bd;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: white;
+    padding: 4px 10px;
+    font-size: inherit;
+    font-family: 'Durotype Aspira', sans-serif;
+    font-weight: bold;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+}
 
+.bck-title5:after {
+	content: "";
+    position: absolute;
+    LEFT: 0px;
+    bottom: -9px;
+    z-index: -5;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #0578BD;
+    border-bottom: 10px solid transparent;
+}
 
 /* ENFASIS */
 .bck-enfasis-1 {
