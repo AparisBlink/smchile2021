@@ -1347,8 +1347,10 @@
 	border: 0;
 }
 .bck-box.bck-box15 .bck-content {
-    background: #F4F0E7;
+	background: #ffffff;
     border-left: 2px solid var(--colorppal);
+    border-top-left-radius: 23px;
+    padding-top: 30px;
 }
 .bck-box.bck-box15 .bck-title {
     background: white;
@@ -1361,7 +1363,7 @@
     position: relative;
     z-index: 2;
     top: 20px;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .bck-box.bck-box15 .bck-title p {
