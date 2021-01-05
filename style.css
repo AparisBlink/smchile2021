@@ -1342,6 +1342,54 @@
     border-left: 2px solid #fbba00;
 }
 
+/* CAJA 15 pensamiento matematico*/
+.bck-box.bck-box15 {
+	border: 0;
+}
+.bck-box.bck-box15 .bck-content {
+    background: #F4F0E7;
+    border-left: 2px solid var(--colorppal);
+}
+.bck-box.bck-box15 .bck-title {
+    background: white;
+    border: 2px solid #eb5090;
+    color: var(--colorppal);
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    padding: 5px 10px 0 10px;
+    position: relative;
+    z-index: 2;
+    top: 20px;
+    margin-left: 30px;
+}
+
+.bck-box.bck-box15 .bck-title p {
+    margin-bottom: 5px;
+}
+
+.bck-box.bck-box15 .bck-title:after {
+	content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    top: 1.5px;
+    left: 10px;
+    z-index: -1;
+    border: 1.9px solid #eb5090;
+    border-left: white;
+    border-top: white;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 0px;
+    -moz-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    transform: skewX(24deg);
+}
+
+
 /*TABLA POR DEFECTO*/
 
 .content table:not(.rf-tablegrid) td,
