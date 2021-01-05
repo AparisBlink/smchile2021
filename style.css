@@ -1255,6 +1255,40 @@
     padding-top: 35px;
 }
 
+/*CAJA 12 lectura crcitica*/
+.bck-box.bck-box12{
+    border: 0;
+    box-shadow: 3px 5px 10px -1px #A1A1A1;
+}
+.bck-box.bck-box12 .bck-title{
+    background: #000000;
+    display: inline-block;
+    padding: 2px 12px;
+    font-family: 'Conv_Hanoded_ButterflyBall';
+    color: #CCE2FE;
+    font-size: 1.8rem;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    left: 85px;
+}
+.bck-box12 .bck-title:before{
+    background: url(images/boxlecturacritica.png);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 32px 33px 0 24px;
+    position: relative;
+    left: -68px;
+    z-index: 100;
+    top: 35px;
+    width: 10px;
+    margin-top: -6px;
+}
+
+.bck-box.bck-box12 .bck-content{
+	border-top: 3px solid #000000;
+    background: #FFFAD2;
+}
 
 /*TABLA POR DEFECTO*/
 
