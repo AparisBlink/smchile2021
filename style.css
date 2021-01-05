@@ -950,37 +950,6 @@
 
 /*CAJAS ASIGNATURAS*/
 /********LENGUA*********/
-/*CAJA 9 texto*/
-.bck-box.bck-box9{
-    border: 0;
-}
-.bck-box.bck-box9 .bck-title{
-	background: #F6A86E;
-    display: inline-block;
-    padding: 2.2px 12px;
-    font-family: 'Conv_Hanoded_ButterflyBall';
-    color: #000000;
-    font-size: 1.8rem;
-    position: relative;
-}
-.bck-box9 .bck-title:after{
-    content: "";
-    position: absolute;
-    width: 110%;
-    height: 107.6%;
-    background: url(images/bordenaranjatexto.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    bottom: 0px;
-    right: -15px;
-}
-
-.bck-box.bck-box9 .bck-content{
-    background: #FFEED5;
-    border-left: 2px solid #000000;
-}
-
 /*CAJA 10 DESAFIO EN CONSTRUCC.*/
 .bck-box.bck-box10{
     border: 0;
@@ -1013,6 +982,37 @@
     background: #FFEED5;
     border-left: 2px solid #000000;
 }
+
+.bck-box.bck-box11{
+    border: 0;
+}
+.bck-box.bck-box11 .bck-title{
+	background: #F6A86E;
+    display: inline-block;
+    padding: 2.2px 12px;
+    font-family: 'Conv_Hanoded_ButterflyBall';
+    color: #000000;
+    font-size: 1.8rem;
+    position: relative;
+}
+.bck-box11 .bck-title:after{
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 107.6%;
+    background: url(images/bordenaranjatexto.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    bottom: 0px;
+    right: -15px;
+}
+
+.bck-box.bck-box11 .bck-content{
+    background: #FFEED5;
+    border-left: 2px solid #000000;
+}
+
 
 /*TABLA POR DEFECTO*/
 
