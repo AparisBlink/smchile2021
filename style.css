@@ -716,7 +716,7 @@
 #actividad .popover-background.shown .popover-content .bck-ul1 li:before{
     width: 6px;
     height: 6px;
-    background-color: var(--colorppal);
+    background: var(--colorppal);
 }
 
 /* --- CAJAS ---*/
