@@ -1503,6 +1503,83 @@
     padding-top: 20px;
 }
 
+/* CAJA 19 CUADERNO. */
+.bck-box.bck-box19{
+    border-bottom: 4px solid #ece8d8;
+    margin: 10px;
+    background: #ffffff;
+    box-shadow: 0px 3px 15px hsla(0,0%,0%,.08);
+    position: relative;
+    background-image: -webkit-radial-gradient(#d6d5d6 45%, transparent 20%), -webkit-radial-gradient(#cfcfc3 44%, transparent 24%);
+    background-image: -moz-radial-gradient(#d6d5d6 45%, transparent 20%), -moz-radial-gradient(#cfcfc3 44%, transparent 24%);
+    background-image: radial-gradient(#ece8d8 45%, transparent 20%), radial-gradient(#c7c3b0 44%, transparent 24%);
+    background-position: -12px 2px, -11px 2px, 50% 0px;
+    background-repeat: repeat-y, repeat-y, repeat;
+    background-size: 30px 30px, 30px 30px, 30px 30px;
+    padding: 10px 10px 10px 50px;
+    box-shadow: -7px -3px 3px 1px #ECE8D8;
+    border-top: 6px solid #ece8d8;
+    border-left: 6px solid #ece8d8;
+    border-right: 4px solid #ece8d8;
+}
+
+.bck-box.bck-box19 .bck-title {
+    background: #fbba00;
+    color: #0d0d0d;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    padding: 5px 10px 0 10px;
+    position: relative;
+    z-index: 2;
+    top: -31px;
+    LEFT: 25%;
+}
+
+.bck-box.bck-box19 .bck-title:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fbba00;
+    top: 0px;
+    left: 13px;
+    z-index: -1;
+    border: 1px solid #fbba00;
+    order-left: white;
+    border-top: white;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 6px;
+    -moz-transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    -o-transform: skewX(30deg);
+    transform: skewX(-30deg);
+}
+
+.bck-box.bck-box19 .bck-title:before {
+    content: "";
+    position: absolute;
+    LEFT: -25px;
+    bottom: 8px;
+    z-index: -5;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #fbba00;
+    /* border-bottom: 10px solid transparent; */
+    border-left: 30px solid transparent;
+    border-right: -3px solid transparent;
+    border-top: 13px solid #fbba00;
+    transform: skewY(10deg);
+}
+
+.bck-box.bck-box19 .bck-content {
+    background: #ffffff;
+    position: relative;
+    top: -10px;
+}
+
 /*TABLA POR DEFECTO*/
 
 .content table:not(.rf-tablegrid) td,
