@@ -1640,6 +1640,18 @@
     top: -10px;
 }
 
+/*CAJA 20*/
+.bck-box.bck-box20{
+	margin: 10px 0;
+    border-left: 2px solid var(--colorppal);
+    background: #F4F0E7;
+    padding: 0px;
+}
+
+.bck-box.bck-box20 .bck-content{
+	padding: 10px;
+} 
+
 /*TABLA POR DEFECTO*/
 
 .content table:not(.rf-tablegrid) td,
