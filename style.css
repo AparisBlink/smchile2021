@@ -1642,6 +1642,35 @@
 /*CAJA 20*/
 .bck-box.bck-box20{
 	margin: 10px 0;
+    border-left: 2px solid var(--colorppal);
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    background: #F4F0E7;
+    padding: 0px;
+}
+
+.bck-box.bck-box20 .bck-content{
+	padding: 10px;
+}
+
+.bck-box.bck-box20 .bck-content:before {
+    content: "";
+    position: absolute;
+    LEFT: -25px;
+    bottom: 8px;
+    z-index: -5;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: -3px solid transparent;
+    border-top: 13px solid #fbba00;
+    transform: skewY(10deg);
+}
+
+/*CAJA 21 */
+.bck-box.bck-box2{
+	margin: 10px 0;
     border-left: 0;
     border-right: 0;
     border-top: 0;
@@ -1651,11 +1680,11 @@
     padding: 0px;
 }
 
-.bck-box.bck-box20 .bck-content{
+.bck-box.bck-box21 .bck-content{
 	padding: 10px;
 }
 
-.bck-box.bck-box20 .bck-content:before {
+.bck-box.bck-box21 .bck-content:before {
 	content: "";
     position: absolute;
     LEFT: -10px;
@@ -1667,7 +1696,6 @@
     border-right: 10px solid rgb(240,240,240);
     border-bottom: 10px solid transparent;
 }
-
 
 /*TABLA POR DEFECTO*/
 
