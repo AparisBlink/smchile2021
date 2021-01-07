@@ -949,6 +949,39 @@
     background-color: #86BC25;
 }
 
+/*LISTA DESORDENADA 5 CUADRADOS*/
+#actividad .content .texto_curso .bck-ul5 li:before,
+#actividad .content .workspace ul li .bck-ul5 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul5 li:before{
+	content: counter(bck-li-counter);
+    height: 7px;
+    text-align: center;
+    width: 13px;
+    position: relative;
+    display: inline-block;
+    padding: 0px 7px;
+    vertical-align: middle;
+    background: url(images/listacuadrados.png);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/*LISTA DESORDENADA 6 FLECHAS*/
+#actividad .content .texto_curso .bck-ul6 li:before,
+#actividad .content .workspace ul li .bck-ul6 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul6 li:before{
+ 	content: '\f101';
+    font-family: FontAwesome;
+    color: var(--colorppal);
+    position: relative;
+    top: 0px;
+    font-weight: bold;
+    background: transparent;
+    left: -4px;
+}
+
 /* --- CAJAS ---*/
 
 .bck-box {
