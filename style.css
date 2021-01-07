@@ -1696,7 +1696,53 @@
     border-bottom: 10px solid transparent;
 }
 
+/*CAJA 22 MATERIALES*/
+.bck-box.bck-box22 c{
+    background: #ffffff;
+    border: 2px solid #F7A500;
+    border-radius: 10px;
+}
 
+.bck-box.bck-box22 .bck-title {
+	background: white;
+    display: inline-block;
+    padding: 2px 12px;
+    font-family: 'Pixilate JollyGood', sans-serif;
+    color: #000000;
+    font-size: 1.8rem;
+    z-index: 2;
+    position: relative;
+    border-top: 2px solid #F7A500;
+    border-left: 2px solid #F7A500;
+    border-bottom: 2px solid #F7A500;
+    border-radius: 10px;
+    left: 2%;
+    top: 15px;
+}
+
+.bck-box22 .bck-title:after {
+    content: "";
+    position: absolute;
+    right: -7px;
+    TOP: 3.5px;
+    width: 21.2px;
+    height: 21.4px;
+    border-top: 2px solid #f7a500;
+    border-bottom: 2px solid #ffffff00;
+    border-right: 2px solid #f7a500;
+    border-radius: 3px;
+    border-left: 2px solid #ffffff00;
+    z-index: -1;
+    background-color: #ffffff;
+    transform: rotate(45deg);
+}
+
+.bck-box.bck-box22 .bck-content {
+    background: #ffffff;
+    border: 2px solid #fbba00;
+    border-radius: 10px;
+    padding-top: 25px;
+}
 
 /*TABLA POR DEFECTO*/
 
