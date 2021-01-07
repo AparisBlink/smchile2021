@@ -1013,7 +1013,7 @@
 
 .bck-box {
 	margin: 10px 0;
-    border: 2px solid var(--colorppal);
+    /*border: 2px solid var(--colorppal);*/
 	-webkit-border-radius: 0;
 	   -moz-border-radius: 0;
 	        border-radius: 0;
@@ -1247,6 +1247,20 @@
 }
 .bck-box8 .bck-content {
 	padding: 0;
+}
+
+/* CAJA 9 */
+.bck-box.bck-box9 {
+	margin: 10px 0;
+    border: 2px solid var(--colorppal);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background: #fff;
+    padding: 0px;
+}
+.bck-box9 .bck-content {
+	padding: 10px;
 }
 
 /*CAJAS ASIGNATURAS*/
