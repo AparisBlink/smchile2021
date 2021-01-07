@@ -1654,7 +1654,7 @@
 	padding: 10px;
 }
 
-.bck-box.bck-box20:before {
+.bck-box.bck-box20.center:before {
     content: "";
     position: absolute;
     LEFT: -25px;
