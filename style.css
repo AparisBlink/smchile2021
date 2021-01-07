@@ -1669,14 +1669,14 @@
 }
 
 /*CAJA 21 */
-.bck-box.bck-box2{
-	margin: 10px 0;
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-    border-bottom: 0;
+/*CAJA 21 */
+.bck-box.bck-box21{
+    margin: 10px 0;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
     border-radius: 10px;
-    background: #f0f0f0;
+    background: rgb(240,240,240);
     padding: 0px;
 }
 
@@ -1696,6 +1696,7 @@
     border-right: 10px solid rgb(240,240,240);
     border-bottom: 10px solid transparent;
 }
+
 
 /*TABLA POR DEFECTO*/
 
