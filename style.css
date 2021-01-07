@@ -1459,7 +1459,6 @@
 .bck-box.bck-box16 .bck-content {
 	background: #ffffff;
     border-TOP: 2px solid var(--colorppal);
-    BORDER-BOTTOM: 2px solid var(--colorppal);
 }
 .bck-box.bck-box16 .bck-title {
     background: var(--colorppal);
