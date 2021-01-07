@@ -1644,6 +1644,9 @@
 .bck-box.bck-box20{
 	margin: 10px 0;
     border-left: 2px solid var(--colorppal);
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
     background: #F4F0E7;
     padding: 0px;
 }
