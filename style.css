@@ -1642,11 +1642,12 @@
 /*CAJA 20*/
 .bck-box.bck-box20{
 	margin: 10px 0;
-    border-left: 2px solid var(--colorppal);
+    border-left: 0;
     border-right: 0;
     border-top: 0;
     border-bottom: 0;
-    background: #F4F0E7;
+    border-radius: 10px;
+    background: #f0f0f0;
     padding: 0px;
 }
 
@@ -1654,19 +1655,19 @@
 	padding: 10px;
 }
 
-.bck-box.bck-box20.center:before {
-    content: "";
+.bck-box.bck-box20 .bck-content:before {
+	content: "";
     position: absolute;
-    LEFT: -25px;
-    bottom: 8px;
-    z-index: -5;
+    LEFT: -10px;
+    margin-top: 15px;
+    border-right: -3px solid transparent;
     width: 0;
     height: 0;
-    border-left: 30px solid transparent;
-    border-right: -3px solid transparent;
-    border-top: 13px solid #fbba00;
-    transform: skewY(10deg);
+    border-top: 10px solid transparent;
+    border-right: 10px solid rgb(240,240,240);
+    border-bottom: 10px solid transparent;
 }
+
 
 /*TABLA POR DEFECTO*/
 
