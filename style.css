@@ -1767,11 +1767,11 @@ th {
 
 /*TABLA 2 GRIS*/
 .bck-table-2 {
-  border: 1px solid #F4F0E7;
+  border: 2px solid #F4F0E7;
 }
 
 .bck-table-2 td {
-  border: 1px solid #F4F0E7;
+  border: 2px solid #F4F0E7;
 }
 /*celda 2 gris*/
 table td.bck-td-2 {
@@ -1810,10 +1810,10 @@ table td.bck-td-2 {
 
 /*TABLA 4 MARRON */
 .bck-table-4 {
-  border: 1px solid #E9BBA3;
+  border: 2px solid #E9BBA3;
 }
 .bck-table-4 td {
-  border: 1px solid #E9BBA3;
+  border: 2px solid #E9BBA3;
 }
 /*celda 6 marron*/
 table td.bck-td-6 {
@@ -1831,7 +1831,7 @@ table td.bck-td-7 {
 
 /*TABLA 5 MORADA*/
 .bck-table-5 {
-  border: 1px solid #B0A5C6;
+  border: 2px solid #B0A5C6;
 }
 /*celda 8 morada*/
 table td.bck-td-7 {
@@ -1849,7 +1849,7 @@ table td.bck-td-9 {
 
 /*TABLA 6 VERDE*/
 .bck-table-6 {
-  border: 1px solid #7AA877;
+  border: 2px solid #7AA877;
 }
 /*celda 10 verde*/
 table td.bck-td-10 {
@@ -1867,7 +1867,7 @@ table td.bck-td-11 {
 
 /*TABLA 7 ROSA*/
 .bck-table-7 {
-  border: 1px solid #DAA5B3;
+  border: 2px solid #DAA5B3;
 }
 /*celda 12 rosa*/
 table td.bck-td-12 {
@@ -1879,7 +1879,7 @@ table td.bck-td-12 {
 
 /*TABLA 8 VERDE CLARO*/
 .bck-table-8 {
-  border: 1px solid #C1DA5E;
+  border: 2px solid #C1DA5E;
 }
 /*celda 13 verde claro*/
 table td.bck-td-13 {
@@ -1897,7 +1897,7 @@ table td.bck-td-14 {
 
 /*TABLA 9 AMARILLA*/
 .bck-table-9 {
-  border: 1px solid #FFCB05;
+  border: 2px solid #FFCB05;
 }
 /*celda 15 amarilla*/
 table td.bck-td-15 {
@@ -1915,7 +1915,7 @@ table td.bck-td-16 {
 
 /*TABLA 10 NARANJA*/
 .bck-table-10 {
-  border: 1px solid #F59E24;
+  border: 2px solid #F59E24;
 }
 /*celda 17 naranja*/
 table td.bck-td-17 {
