@@ -1745,7 +1745,7 @@
     padding-top: 25px;
 }
 
-/*TABLA POR DEFECTO*/
+/*TABLA POR DEFECTO
 
 .content table:not(.rf-tablegrid) td,
 .content table:not(.rf-tablegrid) th {
@@ -1757,6 +1757,24 @@
 .content table:not(.rf-tablegrid) {
     border: 1px solid #F37731;
     margin-bottom: 20px;
+}*/
+
+/**TABLA**/
+table,
+.bck-table {
+	border: 1px solid #F37731;
+    margin-bottom: 20px;
+}
+
+table td,
+.bck-table td {
+	border: 3px solid #fff;
+    background: #D4EAE4;
+}
+
+td,
+th {
+	padding: 10px;
 }
 
 /*TABLA 2 GRIS*/
