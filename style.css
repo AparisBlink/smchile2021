@@ -1759,6 +1759,166 @@
     margin-bottom: 20px;
 }
 
+/*TABLA 2 GRIS*/
+.bck-table-2 {
+  border: 1px solid #F4F0E7;
+}
+
+.bck-table-2 td {
+  border: 1px solid #F4F0E7;
+}
+/*celda 2 gris*/
+table td.bck-td-2 {
+  color: #ffffff;
+  background: #F4F0E7;
+  text-align: center;
+}
+
+
+/*TABLA 3 AZUL*/
+.bck-table-3 {
+  border: 2px solid #67B9C2;
+}
+/*celda 3 AZUL*/
+.bck-table-3 td {
+  border: 2px solid #67B9C2;
+  background-color: #fff;
+  color: #333;
+  font-size: 1.9rem;
+}
+/*celda 4 AZUL*/
+.bck-table-4 td {
+  border: 2px solid #85C4CB;
+  background-color: #85C4CB;
+  color: #333;
+  font-size: 1.9rem;
+}
+/*celda 5 AZUL*/
+.bck-table-5 td {
+  border: 2px solid #E9EFF6;
+  background-color: #E9EFF6;
+  color: #333;
+  font-size: 1.9rem;
+}
+
+
+/*TABLA 4 MARRON */
+.bck-table-4 {
+  border: 1px solid #E9BBA3;
+}
+.bck-table-4 td {
+  border: 1px solid #E9BBA3;
+}
+/*celda 6 marron*/
+table td.bck-td-6 {
+  color: #ffffff;
+  background: #E9BBA3;
+  text-align: center;
+}
+/*celda 7 marron*/
+table td.bck-td-7 {
+  color: #ffffff;
+  background: #F8E9E0;
+  text-align: center;
+}
+
+
+/*TABLA 5 MORADA*/
+.bck-table-5 {
+  border: 1px solid #B0A5C6;
+}
+/*celda 8 morada*/
+table td.bck-td-7 {
+  color: #ffffff;
+  background: #B0A5C6;
+  text-align: center;
+}
+/*celda 9 morada*/
+table td.bck-td-9 {
+  color: #ffffff;
+  background: #E5D0DF;
+  text-align: center;
+}
+
+
+/*TABLA 6 VERDE*/
+.bck-table-6 {
+  border: 1px solid #7AA877;
+}
+/*celda 10 verde*/
+table td.bck-td-10 {
+  color: #ffffff;
+  background: #7AA877;
+  text-align: center;
+}
+/*celda 11 verde*/
+table td.bck-td-11 {
+  color: #ffffff;
+  background: #C9D7C2;
+  text-align: center;
+}
+
+
+/*TABLA 7 ROSA*/
+.bck-table-7 {
+  border: 1px solid #DAA5B3;
+}
+/*celda 12 rosa*/
+table td.bck-td-12 {
+  color: #ffffff;
+  background: #DAA5B3;
+  text-align: center;
+}
+
+
+/*TABLA 8 VERDE CLARO*/
+.bck-table-8 {
+  border: 1px solid #C1DA5E;
+}
+/*celda 13 verde claro*/
+table td.bck-td-13 {
+  color: #ffffff;
+  background: #C1DA5E;
+  text-align: center;
+}
+/*celda 14 verde claro*/
+table td.bck-td-14 {
+  color: #ffffff;
+  background: #DEEAAE;
+  text-align: center;
+}
+
+
+/*TABLA 9 AMARILLA*/
+.bck-table-9 {
+  border: 1px solid #FFCB05;
+}
+/*celda 15 amarilla*/
+table td.bck-td-15 {
+  color: #ffffff;
+  background: #FFE7A7;
+  text-align: center;
+}
+/*celda 16 amarilla*/
+table td.bck-td-16 {
+  color: #ffffff;
+  background: #FFF1D0;
+  text-align: center;
+}
+
+
+/*TABLA 10 NARANJA*/
+.bck-table-10 {
+  border: 1px solid #F59E24;
+}
+/*celda 17 naranja*/
+table td.bck-td-17 {
+  color: #ffffff;
+  background: #FDD5A5;
+  text-align: center;
+}
+
+
 /*-----*/
 /* Icons */
 
