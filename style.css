@@ -1762,14 +1762,14 @@
 /**TABLA**/
 table,
 .bck-table {
-	border: 1px solid #F37731;
+	border: 3px solid #F37731;
     margin-bottom: 20px;
 }
 
 table td,
 .bck-table td {
-	border: 3px solid #fff;
-    background: #D4EAE4;
+	border: 3px solid #F37731;
+    background: #ffffff;
 }
 
 td,
