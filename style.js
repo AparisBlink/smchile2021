@@ -84,6 +84,22 @@
 				{ name: 'Caja 23', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box23' } },
 				{ name: 'Caja 24', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box24' } },
 				{ name: 'Caja 25', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box25' } },
+				
+				{ name: 'Tabla 2', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
+				{ name: 'Tabla 3', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
+				{ name: 'Tabla 4', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-4'} },
+				{ name: 'Tabla 5', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-6'} },
+				{ name: 'Tabla 6', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-7'} },
+				
+				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td-2'} },
+				{ name: 'Celda 3', element: 'td', attributes: { 'class': 'bck-td-3'} },
+				{ name: 'Celda 4', element: 'td', attributes: { 'class': 'bck-td-4'} },
+				{ name: 'Celda 5', element: 'td', attributes: { 'class': 'bck-td-5'} },
+				{ name: 'Celda 6', element: 'td', attributes: { 'class': 'bck-td-6'} },
+				{ name: 'Celda 7', element: 'td', attributes: { 'class': 'bck-td-7'} },
+				{ name: 'Celda 8', element: 'td', attributes: { 'class': 'bck-td-8'} },
+				{ name: 'Celda 9', element: 'td', attributes: { 'class': 'bck-td-9'} },
+				{ name: 'Celda 10', element: 'td', attributes: { 'class': 'bck-td-10'} },
 			]
 		},
 
