@@ -88,8 +88,12 @@
 				{ name: 'Tabla 2', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				{ name: 'Tabla 3', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
 				{ name: 'Tabla 4', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-4'} },
-				{ name: 'Tabla 5', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-6'} },
-				{ name: 'Tabla 6', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-7'} },
+				{ name: 'Tabla 5', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-5'} },
+				{ name: 'Tabla 6', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-6'} },
+				{ name: 'Tabla 7', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-7'} },
+				{ name: 'Tabla 8', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-8'} },
+				{ name: 'Tabla 9', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-9'} },
+				{ name: 'Tabla 10', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-10'} },
 				
 				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td-2'} },
 				{ name: 'Celda 3', element: 'td', attributes: { 'class': 'bck-td-3'} },
@@ -100,6 +104,13 @@
 				{ name: 'Celda 8', element: 'td', attributes: { 'class': 'bck-td-8'} },
 				{ name: 'Celda 9', element: 'td', attributes: { 'class': 'bck-td-9'} },
 				{ name: 'Celda 10', element: 'td', attributes: { 'class': 'bck-td-10'} },
+				{ name: 'Celda 11', element: 'td', attributes: { 'class': 'bck-td-11'} },
+				{ name: 'Celda 12', element: 'td', attributes: { 'class': 'bck-td-12'} },
+				{ name: 'Celda 13', element: 'td', attributes: { 'class': 'bck-td-13'} },
+				{ name: 'Celda 14', element: 'td', attributes: { 'class': 'bck-td-14'} },
+				{ name: 'Celda 15', element: 'td', attributes: { 'class': 'bck-td-15'} },
+				{ name: 'Celda 16', element: 'td', attributes: { 'class': 'bck-td-16'} },
+				{ name: 'Celda 17', element: 'td', attributes: { 'class': 'bck-td-17'} },
 			]
 		},
 
