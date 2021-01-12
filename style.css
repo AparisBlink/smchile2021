@@ -1193,6 +1193,7 @@
 /* CAJA 6 */
 .bck-box.bck-box6 {
     border: 0;
+    background-color: transparent;
 }
 .bck-box.bck-box6 .bck-title {
     background: #009EE3;
