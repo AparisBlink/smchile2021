@@ -2020,6 +2020,20 @@ table td.bck-td-17 {
     height: 58px;
 }
 
+/* Icono durante lectura */
+.item-container .icon-duranteleer:before {
+    background-image: url(images/iconoduranteleer.png);
+	width: 101px;
+    height: 58px;
+}
+
+/* Icono despues de leer */
+.item-container .icon-despuesleer:before {
+    background-image: url(images/iconodespuesleer.png);
+	width: 101px;
+    height: 58px;
+}
+
 /*-----*/
 
 /* Forms */
