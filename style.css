@@ -2001,6 +2001,13 @@ table td.bck-td-17 {
     height: 55px;
 }
 
+/* Icono antes de leer */
+.item-container .icon-antesleer:before {
+    background-image: url(images/conoantesleer.png);
+    width: 80px;
+    height: 55px;
+}
+
 /*-----*/
 
 /* Forms */
