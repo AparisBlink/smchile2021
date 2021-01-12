@@ -25,13 +25,13 @@
 				{ name: 'Título 9', element: 'h4', attributes: { 'class': 'bck-title bck-title9'} },
 				{ name: 'Título 10', element: 'h4', attributes: { 'class': 'bck-title bck-title10'} },
 
-				{ name: 'Énfasis 1', element: 'h4', attributes: { 'class': 'bck-enfasis-1'} },
-				{ name: 'Énfasis 2', element: 'h4', attributes: { 'class': 'bck-enfasis-2'} },
-				{ name: 'Énfasis 3', element: 'h4', attributes: { 'class': 'bck-enfasis-3'} },
-				{ name: 'Énfasis 4', element: 'h4', attributes: { 'class': 'bck-enfasis-4'} },
-				{ name: 'Énfasis 5', element: 'h4', attributes: { 'class': 'bck-enfasis-5'} },
-				{ name: 'Énfasis 6', element: 'h4', attributes: { 'class': 'bck-enfasis-6'} },
-				{ name: 'Énfasis 7', element: 'h4', attributes: { 'class': 'bck-enfasis-7'} },
+				{ name: 'Énfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+				{ name: 'Énfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
+				{ name: 'Énfasis 3', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
+				{ name: 'Énfasis 4', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
+				{ name: 'Énfasis 5', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
+				{ name: 'Énfasis 6', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
+				{ name: 'Énfasis 7', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
 
 				{ name: 'Icono Reciclaje', element: 'span', attributes: { 'class': 'icon icon-reciclaje' } },
 
