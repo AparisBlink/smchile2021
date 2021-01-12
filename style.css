@@ -1788,6 +1788,38 @@
     padding-top: 25px;
 }
 
+/*CAJA 23 INFO LENGUA*/
+.bck-box.bck-box23{
+	margin: 10px 0;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background: rgb(255 255 255);
+    padding: 0px;
+    BORDER-TOP: 2PX SOLID #6D797F;
+    BORDER-BOTTOM: 2PX SOLID #6D797F;
+}
+
+.bck-box.bck-box23 .bck-content{
+	 padding: 0px 0PX 8PX 11PX;
+}
+
+.bck-box.bck-box23 .bck-content:before {
+	content: "\f129";
+    position: relative;
+    left: -104px;
+    top: -19px;
+    width: 23px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    height: 35px;
+    margin-top: -6px;
+    color: white;
+    font-family: 'FontAwesome';
+    background-color: #6D797F;
+}
+
 /*TABLA POR DEFECTO*/
 
 .content table:not(.rf-tablegrid) td,
