@@ -1776,7 +1776,16 @@
     padding-top: 25px;
 }
 
+/*TABLA POR DEFECTO*/
 
+.content table:not(.rf-tablegrid) td,
+.content table:not(.rf-tablegrid) th {
+    padding: 10px;
+}
+
+.content table:not(.rf-tablegrid) {
+    margin-bottom: 20px;
+}
 
 /**TABLA**/
 table,
