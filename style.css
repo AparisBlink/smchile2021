@@ -592,7 +592,17 @@
 .bck-enfasis-4 {
     font-family: 'Conv_CaeciliaLTStd-Roman';
 }
-
+}
+.bck-enfasis-5 {
+    top: -0.5em;
+    width: 6px;
+    padding: 2px 5px;
+    border-radius: 20px;
+    height: 12px;
+    color: white;
+    font-size: 1rem;
+    background-color: #E94287;
+}
 
 /* Lists */
 
