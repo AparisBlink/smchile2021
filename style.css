@@ -549,6 +549,26 @@
     border-bottom: 10px solid transparent;
 }
 
+.bck-title6 {
+    position: relative;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+    letter-spacing: 0;
+    font-family: 'Durotype Aspira', sans-serif;
+    color: #5C676D;
+    font-weight: bold;
+    padding: 0;
+    background: none;
+    display: block;
+    margin: 0px 0px 15px 0px;
+    font-size: 1.8rem;
+    border: 0;
+}
+
 /* ENFASIS */
 .bck-enfasis-1 {
     color: #EA555B;
