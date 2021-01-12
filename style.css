@@ -1985,6 +1985,13 @@ table td.bck-td-17 {
     height: 30px;
 }
 
+/* Icono taller ciencia */
+.item-container .icon-taller:before {
+    background-image: url(images/iconotallerciencia.png);
+    width: 40px;
+    height: 30px;
+}
+
 /*-----*/
 
 /* Forms */
