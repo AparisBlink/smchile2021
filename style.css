@@ -1795,7 +1795,7 @@
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    background: rgb(255 255 255);
+    background: #00000000;
     padding: 0px;
     BORDER-TOP: 2PX SOLID #6D797F;
     BORDER-BOTTOM: 2PX SOLID #6D797F;
