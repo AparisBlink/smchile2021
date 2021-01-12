@@ -597,7 +597,7 @@
     line-height: 1.1rem;
     position: relative;
     display: block;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .content ol li:before,
@@ -719,7 +719,7 @@
 /* Lista ordenada 5 - L.abc auto*/
 .content .bck-ol5 li, 
 .cke_contents .bck-ol5 li {
-   padding-left: 35px;
+   padding-left: 40px;
 }
 
 .content .bck-ol5 li:before,
