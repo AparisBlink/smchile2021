@@ -2004,8 +2004,8 @@ table td.bck-td-17 {
 /* Icono antes de leer */
 .item-container .icon-antesleer:before {
     background-image: url(images/iconoantesleer.png);
-    width: 80px;
-    height: 55px;
+	width: 101px;
+    height: 58px;
 }
 
 /*-----*/
