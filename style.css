@@ -578,6 +578,14 @@
     border: 0;
 }
 
+/*TITULO 7*/
+.bck-title7 {
+    color: #6D797F;
+    padding: 0;
+    margin: 0px 0px 15px 0px;
+    font-size: 1.3rem;
+}
+
 /* ENFASIS */
 .bck-enfasis-1 {
     color: #EA555B;
