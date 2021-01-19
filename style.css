@@ -441,6 +441,8 @@
 #indice .units ul li {
     background: linear-gradient(99deg, #000000 0%, #5B676C 100%);
     opacity: 0.8;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
 }
 #indice .units ul li.active:not(.disabled),
@@ -457,11 +459,14 @@
 	font-family: 'Durotype Aspira', sans-serif;
     padding: 14px 16px;
     color: white;
+    -moz-transition: margin-left 0.2s ease-in-out;
+    -webkit-transition: margin-left 0.2s ease-in-out;
+    transition: margin-left 0.2s ease-in-out;
 }
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
  body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     color: #fff;
-    text-align: right;
+	margin-left: 30px;
 }
 
 /* --- TÍTULOS --- */
