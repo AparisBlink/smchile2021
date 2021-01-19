@@ -468,6 +468,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     color: #fff;
 	margin-left: 30px;
 }
+#indice .col-indice {
+    font-family: 'Durotype Aspira';
+}
 
 /* --- TÍTULOS --- */
 
