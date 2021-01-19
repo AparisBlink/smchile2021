@@ -1519,10 +1519,10 @@
     width: 100%;
     height: 100%;
     background: white;
-    top: 1.5px;
+    top: 2px;
     left: 10px;
     z-index: -1;
-    border: 1.9px solid #eb5090;
+    border: 2px solid var(--colorppal);
     border-left: white;
     border-top: white;
     border-top-left-radius: 5px;
@@ -1541,7 +1541,7 @@
 }
 .bck-box.bck-box16 > .bck-content {
 	background: #ffffff;
-    border-TOP: 2px solid var(--colorppal);
+    border-top: 2px solid var(--colorppal);
 }
 .bck-box.bck-box16 > .bck-title {
     background: var(--colorppal);
@@ -2171,75 +2171,18 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 
 /*----- unittag ------*/
 /*---unittag_intro */
-.unittag_intro :root {
+ :root .unittag_intro{
 --colordeg: #000000;
 --colordeg2: #5B676C;
 --colorppal: #5C676D;
 }
 /*---unittag_bloque2 */
-.unittag_bloque2 :root {
+ :root .unittag_bloque2 {
 --colordeg: #00A4B7;
 --colordeg2: #50AE2F;
 --colorppal: #00A4B7;
 }
-/*---unittag_bloque3 */
-.unittag_bloque3 :root {
---colordeg: #8C338B;
---colordeg2: #C8308A;
---colorppal: #82338B;
-}
-
-/*---unittag_bloque4 */
-.unittag_bloque3 :root {
---colordeg: #83B824 ;
---colordeg2: #d7d900;
---colorppal: #86BC25 ;
-}
-
-
-/*UNITTAGS*/
-/**bloque2**/
-.unittag_bloque2 .bck-box.bck-box16 {
-	border: 0;
-}
-.unittag_bloque2 .bck-box.bck-box16 > .bck-content {
-	background: #ffffff;
-    border-TOP: 2px solid #00A4B7;
-}
-.unittag_bloque2 .bck-box.bck-box16 > .bck-title {
-    background: #00A4B7;
-    color: white;
-    font-weight: 600;
-    display: inline-block;
-    border-radius: 5px 5px 0 0;
-    padding: 5px 10px 0 10px;
-    position: relative;
-    z-index: 2;
-}
-.unittag_bloque2 .bck-box.bck-box16 > .bck-title p {
-    margin-bottom: 5px;
-}
-.unittag_bloque2 .bck-box.bck-box16 > .bck-title:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #00A4B7;
-    top: 0px;
-    left: 13px;
-    z-index: -1;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    -moz-transform: skewX(20deg);
-    -webkit-transform: skewX(20deg);
-    -o-transform: skewX(20deg);
-    transform: skewX(20deg);
-}
-
-
-.unittag_bloque2 .bck-box.bck-box17 {
-	border: 0;
-}
+/*--*/
 
 .unittag_bloque2.bck-box.bck-box17 > .bck-content {
 	background: #F6F3EC;
@@ -2247,85 +2190,27 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 .unittag_bloque2 .bck-box.bck-box17 > .bck-title {
     background: #52AE32;
     color: white;
-    font-weight: 600;
-    display: inline-block;
-    border-radius: 5px 5px 0 0;
-    padding: 5px 10px 0 10px;
-    position: relative;
-    z-index: 2;
-}
-.unittag_bloque2 .bck-box.bck-box17 > .bck-title p {
-    margin-bottom: 5px;
 }
 .unittag_bloque2 .bck-box.bck-box17 > .bck-title:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: #52AE32;
-    top: 0px;
-    left: 13px;
-    z-index: -1;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 7px;
-    -moz-transform: skewX(20deg);
-    -webkit-transform: skewX(20deg);
-    -o-transform: skewX(20deg);
-    transform: skewX(20deg);
 }
 
-.unittag_bloque2 .bck-box.bck-box20{
-	margin: 10px 0;
-    border-left: 2px solid #00B0BD;
-    border-right: 0;
-    border-top: 0;
-    border-bottom: 0;
-    background: #F4F0E7;
-    padding: 0px;
+.unittag_bloque2 .item-container .icon-antesleer:before {
+    background-image: url(images/iconoantesleer_bloque2-min.png);
 }
+.unittag_bloque2 .item-container .icon-duranteleer:before {
+    background-image: url(images/iconoduranteleer_bloque2-min.png);
+}
+.unittag_bloque2 .item-container .icon-despuesleer:before {
+    background-image: url(images/iconodespuesleer_bloque2-min.png);
+}
+/*--*/
 
-/**bloque3**/
-.unittag_bloque3 .bck-box.bck-box16 {
-	border: 0;
-}
-.unittag_bloque3 .bck-box.bck-box16 > .bck-content {
-	background: #ffffff;
-    border-TOP: 2px solid #82368C;
-}
-.unittag_bloque3 .bck-box.bck-box16 > .bck-title {
-    background: #82368C;
-    color: white;
-    font-weight: 600;
-    display: inline-block;
-    border-radius: 5px 5px 0 0;
-    padding: 5px 10px 0 10px;
-    position: relative;
-    z-index: 2;
-}
-
-.unittag_bloque3 .bck-box.bck-box16 > .bck-title p {
-    margin-bottom: 5px;
-}
-
-.unittag_bloque3 .bck-box.bck-box16 > .bck-title:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #82368C;
-    top: 0px;
-    left: 13px;
-    z-index: -1;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    -moz-transform: skewX(20deg);
-    -webkit-transform: skewX(20deg);
-    -o-transform: skewX(20deg);
-    transform: skewX(20deg);
-}
-
-.unittag_bloque3 .bck-box.bck-box17 {
-	border: 0;
+/*---unittag_bloque3 */
+ :root .unittag_bloque3{
+--colordeg: #8C338B;
+--colordeg2: #C8308A;
+--colorppal: #82338B;
 }
 
 .unittag_bloque3 .bck-box.bck-box17 > .bck-content {
@@ -2333,131 +2218,47 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 }
 .unittag_bloque3 .bck-box.bck-box17 > .bck-title {
     background: #C9338B;
-    color: white;
-    font-weight: 600;
-    display: inline-block;
-    border-radius: 5px 5px 0 0;
-    padding: 5px 10px 0 10px;
-    position: relative;
-    z-index: 2;
-}
-.unittag_bloque3 .bck-box.bck-box17 > .bck-title p {
-    margin-bottom: 5px;
 }
 .unittag_bloque3 .bck-box.bck-box17 > .bck-title:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: #C9338B;
-    top: 0px;
-    left: 13px;
-    z-index: -1;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 7px;
-    -moz-transform: skewX(20deg);
-    -webkit-transform: skewX(20deg);
-    -o-transform: skewX(20deg);
-    transform: skewX(20deg);
 }
 
-.unittag_bloque3 .bck-box.bck-box20{
-	margin: 10px 0;
-    border-left: 2px solid #82338B;
-    border-right: 0;
-    border-top: 0;
-    border-bottom: 0;
-    background: #F4F0E7;
-    padding: 0px;
+.unittag_bloque3 .item-container .icon-antesleer:before {
+    background-image: url(images/iconoantesleer_bloque3-min.png);
 }
-
-
-/**bloque4**/
-.unittag_bloque4 .bck-box.bck-box16 {
-	border: 0;
+.unittag_bloque3 .item-container .icon-duranteleer:before {
+    background-image: url(images/iconoduranteleer_bloque3-min.png);
 }
-
-.unittag_bloque4 .bck-box.bck-box16 > .bck-content {
-	background: #ffffff;
-    border-TOP: 2px solid #86BC25;
+.unittag_bloque3 .item-container .icon-despuesleer:before {
+    background-image: url(images/iconodespuesleer_bloque3-min.png);
 }
+/*--*/
 
-.unittag_bloque4 .bck-box.bck-box16 > .bck-title {
-    background: #86BC25;
-    color: white;
-    font-weight: 600;
-    display: inline-block;
-    border-radius: 5px 5px 0 0;
-    padding: 5px 10px 0 10px;
-    position: relative;
-    z-index: 2;
+/*---unittag_bloque4 */
+:root .unittag_bloque4  {
+--colordeg: #83B824 ;
+--colordeg2: #d7d900;
+--colorppal: #86BC25 ;
 }
-.unittag_bloque4 .bck-box.bck-box16 > .bck-title p {
-    margin-bottom: 5px;
-}
-
-.unittag_bloque4 .bck-box.bck-box16 > .bck-title:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #86BC25;
-    top: 0px;
-    left: 13px;
-    z-index: -1;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    -moz-transform: skewX(20deg);
-    -webkit-transform: skewX(20deg);
-    -o-transform: skewX(20deg);
-    transform: skewX(20deg);
-}
-
-
-.unittag_bloque4 .bck-box.bck-box17 {
-	border: 0;
-}
-
 .unittag_bloque4 .bck-box.bck-box17 > .bck-content {
 	background: #F6F3EC;
 }
 .unittag_bloque4 .bck-box.bck-box17 > .bck-title {
     background: #DEDC00;
     color: white;
-    font-weight: 600;
-    display: inline-block;
-    border-radius: 5px 5px 0 0;
-    padding: 5px 10px 0 10px;
-    position: relative;
-    z-index: 2;
-}
-.unittag_bloque4 .bck-box.bck-box17 > .bck-title p {
-    margin-bottom: 5px;
 }
 .unittag_bloque4 .bck-box.bck-box17 > .bck-title:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: #DEDC00;
-    top: 0px;
-    left: 13px;
-    z-index: -1;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 7px;
-    -moz-transform: skewX(20deg);
-    -webkit-transform: skewX(20deg);
-    -o-transform: skewX(20deg);
-    transform: skewX(20deg);
 }
 
-.unittag_bloque4 .bck-box.bck-box20{
-	margin: 10px 0;
-    border-left: 2px solid #85BC21;
-    border-right: 0;
-    border-top: 0;
-    border-bottom: 0;
-    background: #F4F0E7;
-    padding: 0px;
+.unittag_bloque4 .item-container .icon-antesleer:before {
+    background-image: url(images/iconoantesleer_bloque4-min.png);
 }
+.unittag_bloque4 .item-container .icon-duranteleer:before {
+    background-image: url(images/iconoduranteleer_bloque4-min.png);
+}
+.unittag_bloque4 .item-container .icon-despuesleer:before {
+    background-image: url(images/iconodespuesleer_bloque4-min.png);
+}
+
 /*************/
