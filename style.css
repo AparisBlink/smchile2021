@@ -437,6 +437,33 @@
 
 /**/
 
+/* TOC */
+#indice .units ul li {
+    background: linear-gradient(99deg, #000000 0%, #5B676C 100%);
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+#indice .units ul li.active:not(.disabled),
+ body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
+    background: linear-gradient(99deg, #000000 0%, #5B676C 100%);
+    opacity: 1;
+}
+
+#indice .units ul li a:not(.delete) {
+    padding: 0;
+    border-radius: 7px;
+}
+#indice .units ul li a .title {
+	font-family: 'Durotype Aspira', sans-serif;
+    padding: 14px 16px;
+    color: white;
+}
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
+ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
+    color: #fff;
+    text-align: right;
+}
+
 /* --- TÍTULOS --- */
 
 /*TITULO 1*/
@@ -1942,8 +1969,8 @@ th {
 
 
 /*TABLA 3 AZUL*/
-.content table:not(.rf-tablegrid) .bck-table-3 td,
-.content table:not(.rf-tablegrid) .bck-table-3 th {
+.content table:not(.rf-tablegrid).bck-table-3 td,
+.content table:not(.rf-tablegrid).bck-table-3 th {
   border: 2px solid #67B9C2;
 }
 /*celda 3 AZUL*/
@@ -1951,27 +1978,24 @@ th {
   border: 2px solid #67B9C2;
   background-color: #fff;
   color: #333;
-  font-size: 1.9rem;
 }
 /*celda 4 AZUL*/
 .content table:not(.rf-tablegrid) td.bck-td-4 {
   border: 2px solid #85C4CB;
   background-color: #85C4CB;
   color: #333;
-  font-size: 1.9rem;
 }
 /*celda 5 AZUL*/
 .content table:not(.rf-tablegrid) td.bck-td-5 {
   border: 2px solid #E9EFF6;
   background-color: #E9EFF6;
   color: #333;
-  font-size: 1.9rem;
 }
 
 
 /*TABLA 4 MARRON */
-.content table:not(.rf-tablegrid) .bck-table-4 td,
-.content table:not(.rf-tablegrid) .bck-table-4 th {
+.content table:not(.rf-tablegrid).bck-table-4 td,
+.content table:not(.rf-tablegrid).bck-table-4 th {
   border: 2px solid #E9BBA3;
 }
 
@@ -1990,8 +2014,8 @@ th {
 
 
 /*TABLA 5 MORADA*/
-.content table:not(.rf-tablegrid) .bck-table-5 td,
-.content table:not(.rf-tablegrid) .bck-table-5 th {
+.content table:not(.rf-tablegrid).bck-table-5 td,
+.content table:not(.rf-tablegrid).bck-table-5 th {
   border: 2px solid #B0A5C6;
 }
 /*celda 8 morada*/
@@ -2001,7 +2025,7 @@ th {
   text-align: center;
 }
 /*celda 9 morada*/
-.content table:not(.rf-tablegrid) td.bck-td-8 {
+.content table:not(.rf-tablegrid) td.bck-td-9 {
   color: #ffffff;
   background: #E5D0DF;
   text-align: center;
@@ -2009,8 +2033,8 @@ th {
 
 
 /*TABLA 6 VERDE*/
-.content table:not(.rf-tablegrid) .bck-table-6 td,
-.content table:not(.rf-tablegrid) .bck-table-6 th {
+.content table:not(.rf-tablegrid).bck-table-6 td,
+.content table:not(.rf-tablegrid).bck-table-6 th {
   border: 2px solid #7AA877;
 }
 /*celda 10 verde*/
@@ -2028,8 +2052,8 @@ th {
 
 
 /*TABLA 7 ROSA*/
-.content table:not(.rf-tablegrid) .bck-table-7 td,
-.content table:not(.rf-tablegrid) .bck-table-7 th {
+.content table:not(.rf-tablegrid).bck-table-7 td,
+.content table:not(.rf-tablegrid).bck-table-7 th {
   border: 2px solid #DAA5B3;
 }
 
@@ -2042,8 +2066,8 @@ th {
 
 
 /*TABLA 8 VERDE CLARO*/
-.content table:not(.rf-tablegrid) .bck-table-8 td,
-.content table:not(.rf-tablegrid) .bck-table-8 th {
+.content table:not(.rf-tablegrid).bck-table-8 td,
+.content table:not(.rf-tablegrid).bck-table-8 th {
   border: 2px solid #C1DA5E;
 }
 /*celda 13 verde claro*/
@@ -2061,8 +2085,8 @@ th {
 
 
 /*TABLA 9 AMARILLA*/
-.content table:not(.rf-tablegrid) .bck-table-9 td,
-.content table:not(.rf-tablegrid) .bck-table-9 th  {
+.content table:not(.rf-tablegrid).bck-table-9 td,
+.content table:not(.rf-tablegrid).bck-table-9 th  {
   border: 2px solid #FFCB05;
 }
 /*celda 15 amarilla*/
@@ -2080,8 +2104,8 @@ th {
 
 
 /*TABLA 10 NARANJA*/
-.content table:not(.rf-tablegrid) .bck-table-10 td,
-.content table:not(.rf-tablegrid) .bck-table-10 th {
+.content table:not(.rf-tablegrid).bck-table-10 td,
+.content table:not(.rf-tablegrid).bck-table-10 th {
   border: 2px solid #F59E24;
 }
 /*celda 17 naranja*/
