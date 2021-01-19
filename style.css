@@ -167,7 +167,7 @@
 	.content_type_clase_smchile2021 #actividad .content .header .title .header1 {
 		position: absolute;
 	    background: white;
-	    color: #e94286;
+	    color: var(--colorppal);
 	    width: 65px;
 	    height: 50px;
 	    left: -97px;
@@ -608,7 +608,7 @@
     height: 12px;
     color: white;
     font-size: 1rem;
-    background-color: #E94287;
+    background-color: var(--colorppal);
 }
 
 .bck-enfasis-6 {
@@ -1046,11 +1046,13 @@
     width: 6px;
     height: 6px;
     background-color: #414141;
+    margin-top: .55em;
 }
 
 /*LISTA DESORDENADA 1 ROSA*/
 #actividad .content .texto_curso .bck-ul1 li:before,
-#actividad .content .workspace ul li .bck-ul1 li:before ,
+#actividad .content .workspace ul li .bck-ul1 li:before,
+#actividad .content .cke_contents ul li .bck-ul1 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul1 li:before{
     width: 6px;
     height: 6px;
@@ -1059,7 +1061,8 @@
 
 /*LISTA DESORDENADA 2 AZUL*/
 #actividad .content .texto_curso .bck-ul2 li:before,
-#actividad .content .workspace ul li .bck-ul2 li:before ,
+#actividad .content .workspace ul li .bck-ul2 li:before,
+#actividad .content .cke_contents ul li .bck-ul2 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul2 li:before{
     width: 6px;
     height: 6px;
@@ -1068,7 +1071,8 @@
 
 /*LISTA DESORDENADA 3 morada*/
 #actividad .content .texto_curso .bck-ul3 li:before,
-#actividad .content .workspace ul li .bck-ul3 li:before ,
+#actividad .content .workspace ul li .bck-ul3 li:before,
+#actividad .content .cke_contents ul li .bck-ul3 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul3 li:before{
     width: 6px;
     height: 6px;
@@ -1077,7 +1081,8 @@
 
 /*LISTA DESORDENADA 4 verde*/
 #actividad .content .texto_curso .bck-ul4 li:before,
-#actividad .content .workspace ul li .bck-ul4 li:before ,
+#actividad .content .workspace ul li .bck-ul4 li:before,
+#actividad .content .cke_contents ul li .bck-ul4 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul4 li:before{
     width: 6px;
     height: 6px;
@@ -1086,7 +1091,8 @@
 
 /*LISTA DESORDENADA 5 CUADRADOS*/
 #actividad .content .texto_curso .bck-ul5 li:before,
-#actividad .content .workspace ul li .bck-ul5 li:before ,
+#actividad .content .workspace ul li .bck-ul5 li:before,
+#actividad .content .cke_contents ul li .bck-ul5 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul5 li:before{
 	height: 12px;
     text-align: center;
@@ -1105,7 +1111,8 @@
 
 /*LISTA DESORDENADA 6 FLECHAS*/
 #actividad .content .texto_curso .bck-ul6 li:before,
-#actividad .content .workspace ul li .bck-ul6 li:before ,
+#actividad .content .workspace ul li .bck-ul6 li:before,
+#actividad .content .cke_contents ul li .bck-ul6 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul6 li:before{
  	content: '\f101';
     font-family: FontAwesome;
@@ -1118,7 +1125,8 @@
 }
 /*LISTA DESORDENADA 7 Naranja*/
 #actividad .content .texto_curso .bck-ul7 li:before,
-#actividad .content .workspace ul li .bck-ul7 li:before ,
+#actividad .content .workspace ul li .bck-ul7 li:before,
+#actividad .content .cke_contents ul li .bck-ul7 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul7 li:before{
     width: 6px;
     height: 6px;
@@ -1126,7 +1134,8 @@
 }
 /*LISTA DESORDENADA 8 Amarilla*/
 #actividad .content .texto_curso .bck-ul8 li:before,
-#actividad .content .workspace ul li .bck-ul8 li:before ,
+#actividad .content .workspace ul li .bck-ul8 li:before,
+#actividad .content .cke_contents ul li .bck-ul8 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul8 li:before{
     width: 6px;
     height: 6px;
@@ -1134,7 +1143,6 @@
 }
 
 /* --- CAJAS ---*/
-
 .bck-box {
 	margin: 10px 0;
     /*border: 2px solid var(--colorppal);*/
@@ -1553,7 +1561,7 @@
 }
 .bck-box.bck-box15 > .bck-title {
     background: white;
-    border: 2px solid #eb5090;
+    border: 2px solid var(--colorppal);
     color: var(--colorppal);
     font-weight: 600;
     display: inline-block;
@@ -1837,29 +1845,15 @@
     font-size: 1.8rem;
     z-index: 2;
     position: relative;
-    border-top: 2px solid #F7A500;
-    border-left: 2px solid #F7A500;
-    border-bottom: 2px solid #F7A500;
-    border-radius: 10px;
     left: 2%;
-    top: 15px;
-}
-
-.bck-box22 > .bck-title:after {
-    content: "";
-    position: absolute;
-    right: -7px;
-    TOP: 3.5px;
-    width: 21.2px;
-    height: 21.4px;
-    border-top: 2px solid #f7a500;
-    border-bottom: 2px solid #ffffff00;
-    border-right: 2px solid #f7a500;
-    border-radius: 3px;
-    border-left: 2px solid #ffffff00;
-    z-index: -1;
-    background-color: #ffffff;
-    transform: rotate(45deg);
+    top: 20px;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-image: url(images/Borde_caja_materiales.png);
+    border-image-slice: fill 20;
+    border-image-repeat: stretch;
+    padding-right: 20px;
 }
 
 .bck-box.bck-box22 > .bck-content {
@@ -1906,10 +1900,13 @@
 .content table:not(.rf-tablegrid) td,
 .content table:not(.rf-tablegrid) th {
     padding: 10px;
+    background: white;
+    border: 2px solid #5C676D;
 }
 
 .content table:not(.rf-tablegrid) {
     margin-bottom: 20px;
+    border: 2px solid #5C676D;
 }
 
 /**TABLA**/
@@ -2117,6 +2114,7 @@ table td.bck-td-17 {
     background-image: url(images/icono_reciclaje.png);
     width: 40px;
     height: 30px;
+    margin-top: -3px;
 }
 
 /* Icono taller ciencia */
@@ -2148,6 +2146,22 @@ table td.bck-td-17 {
 }
 
 /*-----*/
+
+/* Pie de foto e imágenes*/
+.bck-i-fullscreen-wrapper {
+    padding: 0px;
+}
+figcaption {
+    position: relative;
+}
+figcaption:before {
+    content: "\f077";
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: -5px;
+    margin-left: -18px;
+    color: var(--colorppal);
+}
 
 /* Forms */
 
@@ -2260,6 +2274,13 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 .unittag_bloque2 .item-container .icon-despuesleer:before {
     background-image: url(images/iconodespuesleer_bloque2-min.png);
 }
+
+.unittag_bloque2 #actividad .content .texto_curso .bck-ul5 li:before,
+.unittag_bloque2 #actividad .content .workspace ul li .bck-ul5 li:before ,
+.unittag_bloque2 #actividad .popover-background.shown .popover-content .bck-ul5 li:before{
+    background: url(images/listacuadrados_Bloque2.png);
+}
+
 /*--*/
 
 /*---unittag_bloque3 */
@@ -2288,6 +2309,12 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 .unittag_bloque3 .item-container .icon-despuesleer:before {
     background-image: url(images/iconodespuesleer_bloque3-min.png);
 }
+
+.unittag_bloque3 #actividad .content .texto_curso .bck-ul5 li:before,
+.unittag_bloque3 #actividad .content .workspace ul li .bck-ul5 li:before ,
+.unittag_bloque3 #actividad .popover-background.shown .popover-content .bck-ul5 li:before{
+    background: url(images/listacuadrados_Bloque3.png);
+}
 /*--*/
 
 /*---unittag_bloque4 */
@@ -2315,6 +2342,12 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 }
 .unittag_bloque4 .item-container .icon-despuesleer:before {
     background-image: url(images/iconodespuesleer_bloque4-min.png);
+}
+
+.unittag_bloque4 #actividad .content .texto_curso .bck-ul5 li:before,
+.unittag_bloque4 #actividad .content .workspace ul li .bck-ul5 li:before ,
+.unittag_bloque4 #actividad .popover-background.shown .popover-content .bck-ul5 li:before{
+    background: url(images/listacuadrados_Bloque4.png);
 }
 
 /*************/
