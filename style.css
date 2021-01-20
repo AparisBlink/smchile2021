@@ -2175,6 +2175,12 @@ th {
     width: 80px;
     height: 55px;
 }
+/* Icono Ciencia en chile */
+.item-container .icon-cienciachile:before {
+    background-image: url(images/iconocienciaenchile.png);
+    width: 80px;
+    height: 55px;
+}
 
 /* Icono antes de leer */
 .item-container .icon-antesleer:before {
