@@ -439,11 +439,14 @@
 
 /* TOC */
 #indice .units ul li {
-    background: linear-gradient(99deg, #000000 0%, #5B676C 100%);
+    background: linear-gradient(99deg, var(--colordeg) 0%, var(--colordeg2) 100%);
     opacity: 0.8;
     -moz-transition: opacity 0.3s ease-in-out;
     -webkit-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
+    -webkit-border-radius: 	5px;
+    -moz-border-radius: 	5px;
+    border-radius: 	5px;
 }
 #indice .units ul li.active:not(.disabled),
  body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
@@ -470,6 +473,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 #indice .col-indice {
     font-family: 'Durotype Aspira';
+}
+#indice .unit-content .header.default {
+    background: linear-gradient(99deg, #020303 0%, #5a656a 100%) !important;
 }
 
 /* --- TÍTULOS --- */
