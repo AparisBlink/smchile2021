@@ -306,25 +306,27 @@
 
 /* Navbar */
 	.navbar-bottom {
-		background: #132E4C;
+		background: #d4d4d4;
 		padding-left: 100px;
 		padding-right: 100px;
+		-moz-box-shadow: 0 0 5px #0000004d;
+		-webkit-box-shadow: 0 0 5px #0000004d;
+		box-shadow: 0 0 5px #0000004d;
 	}
 
 	.logo-publisher {
 		display: inline-block;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100px;
-		height: 44px;
-		background: url(logo-pearson.png) 0 0 no-repeat;
-		-webkit-background-size: contain;
-		   -moz-background-size: contain;
-		     -o-background-size: contain;
-		        background-size: contain;
-		background-position: center center;
-
+	    position: absolute;
+	    top: 4px;
+	    left: 1px;
+	    width: 100px;
+	    height: 36px;
+	    background: url(images/logo-SM.png) 0 0 no-repeat;
+	    -webkit-background-size: contain;
+	    -moz-background-size: contain;
+	    -o-background-size: contain;
+	    background-size: contain;
+	    background-position: center center;
 	}
 
 	@media only screen and (max-width: 640px) {
@@ -391,11 +393,12 @@
 		text-indent: initial;
 	}
 	#bottom-navigator li:hover {
-		background: rgb(142, 206, 224);
+		background: var(--colorppal);
 		color: transparent;
+		opacity: 0.5;
 	}
 	#bottom-navigator li.active {
-		background: #007FA3;
+		background: var(--colorppal);
 		color: transparent;
 	}
 	#bottom-navigator.show_left:before {
@@ -476,6 +479,12 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 #indice .unit-content .header.default {
     background: linear-gradient(99deg, #020303 0%, #5a656a 100%) !important;
+}
+#indice .js-list-activities a:hover,
+ #indice .js-list-activities a:active,
+  #indice .js-list-activities a:focus {
+    color: #566065;
+    margin-left: 12px;
 }
 
 /* --- TÍTULOS --- */
@@ -2281,6 +2290,74 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 	padding: 0;
 }
 
+/*Crucigrama*/
+.slide.crosswords-puzzle .enunciado {
+    line-height: 1.6rem;
+}
+/*Memory*/
+#actividad .workspace.memory .front {
+	background: #fff url(images/logo-SM-memory.png) 
+}
+
+/*--------- BOTONERA --------*/
+/*BOTONERA*/
+    .btn-danger, .btn-danger[disabled] {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid #fc4237;
+    color: #fc4237;
+    background: white;
+    font-weight: 700;
+    }
+    .btn-primary, .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid var(--colorppal);
+    color: var(--colorppal);
+    background: white;
+    font-weight: 700;
+    }
+    .btn-primary:not([disabled]):hover, .btn-primary:not([disabled]):focus, .btn-primary:not([disabled]):active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: var(--colorppal);
+    border-color: var(--colorppal);
+    color: white
+    }
+    #actividad .content .review .attemps span {
+    background-color: var(--colorppal);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    }
+    .btn-primary[disabled], .btn-primary[disabled]:focus {
+    color: #fff;
+    background-color: var(--colorppal);
+    border-color: var(--colorppal);
+    }
+    .btn-solution, .btn-solution.disabled,
+    .btn-solution[disabled], .btn-next, .btn-next.disabled,
+    .btn-next[disabled] {
+    color: #00bdff;
+    background-color: white;
+    border-color: #00bdff;
+    border: 2px solid #00bdff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    }
+    .btn-solution:hover,
+    .btn-solution:focus,
+    .btn-solution:active,
+    .btn-next:hover, .btn-next:focus,
+    .btn-next:active,
+    .open .dropdown-toggle.btn-solution {
+    color: #fff;
+    background-color: #00bdff;
+    border-color: transparent;
+    }
+ /*---*/   
 
 /*----- unittag ------*/
 /*---unittag_intro */
