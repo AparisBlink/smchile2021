@@ -38,6 +38,7 @@
 
 				{ name: 'Icono Reciclaje', element: 'span', attributes: { 'class': 'icon icon-reciclaje' } },
 				{ name: 'Icono Taller ciencia', element: 'span', attributes: { 'class': 'icon icon-taller' } },
+				{ name: 'Icono Taller ciencia', element: 'span', attributes: { 'class': 'icon icon-cienciachile' } },
 				{ name: 'Icono antes de leer', element: 'span', attributes: { 'class': 'icon icon-antesleer' } },
 				{ name: 'Icono durante lectura', element: 'span', attributes: { 'class': 'icon icon-duranteleer' } },
 				{ name: 'Icono despues de leer', element: 'span', attributes: { 'class': 'icon icon-despuesleer' } },
