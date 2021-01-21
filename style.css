@@ -2456,6 +2456,13 @@ body:not(.edit) .bck-flipbox-face.back {
   .html-book .preview:focus {
 	border-color: var(--colorppal);
 }
+.form-control:focus,
+ .form-control:focus-within {
+ 	-moz-box-shadow: none;
+ 	-webkit-box-shadow: none;
+ 	box-shadow: none;
+ 	border: 2px solid var(--colorppal)
+}
 
 /* Slides */
 /*  Clasificar */
