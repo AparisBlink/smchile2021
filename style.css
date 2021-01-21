@@ -453,9 +453,13 @@
     -moz-transition: opacity 0.3s ease-in-out;
     -webkit-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
-    -webkit-border-radius: 	5px;
-    -moz-border-radius: 	5px;
-    border-radius: 	5px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 3px 5px 5px #00000036;
+    -webkit-box-shadow: 3px 5px 5px #00000036;
+    box-shadow: 3px 5px 5px #00000036;
+    margin-bottom: 11px;
 }
 #indice .units ul li.active:not(.disabled),
  body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
@@ -2507,9 +2511,14 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 .slide.crosswords-puzzle .enunciado {
     line-height: 1.6rem;
 }
+.slide.crosswords .enunciados .enunciado {
+    padding: 7px 0px 5px 18px;
+    font-size: 1.6rem;
+    margin-bottom: ;
+}
 /*Memory*/
 #actividad .workspace.memory .front {
-	background: #fff url(images/logo-SM-memory.png) 
+	background: #fff url(images/logo-SM-memory.png) center center / 50px auto no-repeat;
 }
 
 /* Calculo */
