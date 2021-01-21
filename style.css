@@ -2454,14 +2454,15 @@ body:not(.edit) .bck-flipbox-face.back {
 }
 
 /* Slides */
-
+/*  Clasificar */
 #actividad .workspace.multiple-choice .opcion,
 #actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok),
 #actividad .workspace.ordenar .js-rank-item {
-    border-width: 2px;
-    border-color: var(--colorppal);
-    border-style: solid;
+	border: 0;
     background: #fff;
+    -moz-box-shadow: 7px 8px 13px 1px rgba(0,0,0,.16);
+    -webkit-box-shadow: 7px 8px 13px 1px rgba(0,0,0,.16);
+    box-shadow: 7px 8px 13px 1px rgba(0,0,0,.16);
 }
 
 #actividad .workspace.matching .opciones .opcion.emparejado.destino {
