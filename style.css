@@ -2484,6 +2484,9 @@ body:not(.edit) .bck-flipbox-face.back {
 .fillblanks-draggable-wrapper .response {
     border: 0px solid #d8d8d8;
     background: #c1e5f7;
+    -moz-box-shadow: 2px 3px 5px #0000002e;
+    -webkit-box-shadow: 2px 3px 5px #0000002e;
+    box-shadow: 2px 3px 5px #0000002e;
 }
 
 .fillblanks-draggable-wrapper .response .bck-i-fullscreen-wrapper {
@@ -2506,6 +2509,26 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 /*Memory*/
 #actividad .workspace.memory .front {
 	background: #fff url(images/logo-SM-memory.png) 
+}
+
+/* Calculo */
+.content .workspace.calculo table:not(.rf-tablegrid) td,
+ .content .workspace.calculo table:not(.rf-tablegrid) th {
+    border: 0;
+    padding: 10px;
+    background: none;
+}
+#actividad .workspace.calculo li .marco {
+    border: 0;
+}
+#actividad .workspace.calculo table {
+    border: 0;
+}
+
+/*Respuesta múltiple*/
+#actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    border-color: var(--colorppal);
+    background-color: var(--colortrans);
 }
 
 /*--------- BOTONERA --------*/
