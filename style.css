@@ -642,6 +642,15 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     font-size: 1.3rem;
 }
 
+/* Titulo 8 */
+.bck-title8 {
+    font-size: 1.8rem;
+    background: #8AB3D2;
+    color: white;
+    padding: 4px;
+    font-weight: 800;
+}
+
 /* ENFASIS */
 .bck-enfasis-1 {
     color: #EA555B;
@@ -683,7 +692,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	.bck-enfasis-10 {
 	    color: #86BC25;
 	}
-
+/* Enfasis 11 Resaltar */
 .bck-enfasis-11 {
     background: var(--colorppal);
     color: white;
@@ -691,6 +700,27 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+}
+
+/* Enfasis 12 - Corchetes */
+.bck-enfasis-12 {
+    font-family: 'Pixilate JollyGood';
+    font-size: 2.0rem;
+}
+
+.bck-enfasis-12:before {
+    content: "[";
+    font-size: 3.0rem;
+    vertical-align: middle;
+    padding-right: 1px;
+    color: #FFCC00;
+}
+.bck-enfasis-12:after {
+    content: "]";
+    font-size: 3.0rem;
+    vertical-align: middle;
+    padding-left: 1px;
+    color: #FFCC00;
 }
 /*--*/
 
@@ -1905,21 +1935,21 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .bck-box.bck-box22 > .bck-title {
 	background: white;
     display: inline-block;
-    padding: 2px 12px;
+    padding: 5px 12px;
     font-family: 'Pixilate JollyGood', sans-serif;
     color: #000000;
     font-size: 1.8rem;
     z-index: 2;
     position: relative;
     left: 2%;
-    top: 20px;
+    top: 19px;
     border-radius: 0;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-image: url(images/Borde_caja_materiales.png);
-    border-image-slice: fill 20;
+    border-image-slice: fill 4;
     border-image-repeat: stretch;
-    padding-right: 20px;
+    padding-right: 31px;
 }
 
 .bck-box.bck-box22 > .bck-content {
@@ -1960,6 +1990,24 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     font-family: 'FontAwesome';
     background-color: #6D797F;
 }
+
+/* CAJA 24 */
+.bck-box24 {
+    border: 0;
+}
+.bck-box24 > .bck-title {
+    background: #656f75;
+    display: inline-block;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    color: #FFF;
+    padding: 5px 15px;
+}
+.bck-box24 > .bck-content {
+    border: 1px solid #656f75;
+}
+
 
 /*TABLA POR DEFECTO*/
 
