@@ -77,7 +77,7 @@
 --colordeg: #E94287;
 --colordeg2: #EC6608;
 --colorppal: #E94287;
---colorsec:#634634;
+--colortrans:#E942874f;
 }
 /*-------------------------*/
 
@@ -2574,19 +2574,21 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 --colordeg: #000000;
 --colordeg2: #5B676C;
 --colorppal: #5C676D;
+--colortrans: #5C676D4f;
 }
 
 :root .unittag_bloque1{
 --colordeg: #E94287;
 --colordeg2: #EC6608;
 --colorppal: #E94287;
---colorsec:#634634;
+--colortrans:#E942874f;
 }
 /*---unittag_bloque2 */
  :root .unittag_bloque2 {
 --colordeg: #00A4B7;
 --colordeg2: #50AE2F;
 --colorppal: #00A4B7;
+--colortrans:#00A4B74f;
 }
 /*--*/
 
@@ -2624,6 +2626,7 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 --colordeg: #8C338B;
 --colordeg2: #C8308A;
 --colorppal: #82338B;
+--colortrans:#82338B4f;
 }
 
 .unittag_bloque3 .bck-box.bck-box17 > .bck-content {
@@ -2657,7 +2660,8 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 :root .unittag_bloque4  {
 --colordeg: #83B824 ;
 --colordeg2: #d7d900;
---colorppal: #86BC25 ;
+--colorppal: #86BC25;
+--colortrans:#86BC254f;
 }
 .unittag_bloque4 .bck-box.bck-box17 > .bck-content {
 	background: #F6F3EC;
