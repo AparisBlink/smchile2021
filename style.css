@@ -441,6 +441,12 @@
 /**/
 
 /* TOC */
+:root #indice {
+--colordeg: #000000;
+--colordeg2: #5B676C;
+--colorppal: #5C676D;
+}
+
 #indice .units ul li {
     background: linear-gradient(99deg, var(--colordeg) 0%, var(--colordeg2) 100%);
     opacity: 0.8;
@@ -453,7 +459,7 @@
 }
 #indice .units ul li.active:not(.disabled),
  body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
-    background: linear-gradient(99deg, #000000 0%, #5B676C 100%);
+    background: linear-gradient(99deg, var(--colordeg) 0%, var(--colordeg2) 100%);
     opacity: 1;
 }
 
@@ -2371,6 +2377,13 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 --colordeg: #000000;
 --colordeg2: #5B676C;
 --colorppal: #5C676D;
+}
+
+:root .unittag_bloque1{
+--colordeg: #E94287;
+--colordeg2: #EC6608;
+--colorppal: #E94287;
+--colorsec:#634634;
 }
 /*---unittag_bloque2 */
  :root .unittag_bloque2 {
