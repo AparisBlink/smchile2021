@@ -2245,7 +2245,9 @@ th {
 /* Icons */
 
 #actividad .player.audio {
-	background: url(images/Icon_audio.png) center center / cover;
+    background-image: url(../../../images/shared/multimedia-icons.png);
+    background-color: var(--colorppal);
+    background-position: -29px -1px;
 }
 
 .item-container .icon:before {
@@ -2304,7 +2306,6 @@ th {
 	width: 191px;
     height: 58px;
 }
-
 /*-----*/
 
 /* Pie de foto e imágenes*/
@@ -2322,6 +2323,101 @@ figcaption:before {
     margin-left: -18px;
     color: var(--colorppal);
 }
+
+/* Desplegable */
+.bck-dropdown-button {
+    padding: 10px;
+    background: var(--colorppal);
+    color: #fff;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    cursor: pointer
+}
+
+.bck-dropdown-icon>.fa {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-color: #fff;
+    background: #fff;
+    color: var(--colorppal)
+}
+
+.bck-dropdown-titulo {
+    font-weight: 600;
+    font-size: 20px
+}
+
+.bck-dropdown-content {
+    background-color: #fff;
+    border: 2px solid var(--colorppal);
+    -moz-border-radius-topleft: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-bottom-right-radius: 5px
+}
+
+/*- Flipbox */
+body:not(.edit) .front .bck-flipbox-section,body:not(.edit) .front .bck-flipbox-title {
+    color: var(--colorppal)
+}
+body:not(.edit) .bck-flipbox-face.back,body:not(.edit) .bck-flipbox-face.front {
+    border-color: var(--colorppal);
+    -webkit-box-shadow: 5px 5px 8px rgba(0,0,0,.18);
+    -moz-box-shadow: 5px 5px 8px rgba(0,0,0,.18);
+    box-shadow: 5px 5px 8px rgba(0,0,0,.18)
+}
+body:not(.edit) .bck-flipbox-face.back {
+    background-color: var(--colorppal)
+}
+
+/* PopUp */
+#actividad .info-button {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer
+}
+
+#actividad .info-button,.info-popover .popover-title,.popover-template .popover-title {
+    color: #fff;
+    background: var(--colorppal)
+}
+
+.fa-times:before,.info-popover .popover-title:before,.popover-template .popover-title:before {
+    color: #fff
+}
+
+.info-template.shown {
+    width: 200px;
+    background: #fff;
+    border: 3px solid var(--colorppal);
+    border-right: var(--colorppal)
+}
+
+.info-template .info-title {
+    color: var(--colorppal)
+}
+
+.info-template .info-icon {
+    color: #fff;
+    background: var(--colorppal)
+}
+
+/* Links */
+#actividad .item-container a {
+	text-decoration: underline;
+}
+#actividad .item-container a:hover,
+ #actividad .item-container a:active,
+  #actividad .item-container a:focus {
+  	color: var(--colorppal);
+  }
 
 /* Forms */
 
