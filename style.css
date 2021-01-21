@@ -683,6 +683,15 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	.bck-enfasis-10 {
 	    color: #86BC25;
 	}
+
+.bck-enfasis-11 {
+    background: var(--colorppal);
+    color: white;
+    padding: 1px 7px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
 /*--*/
 
 /* Lists */
@@ -745,7 +754,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 
 /*LISTA 1 - L.123 Fondo Gris */
-.content .bck-ol1 li, .cke_contents .bck-ol1 li {
+.content .bck-ol1 li,
+ .cke_contents .bck-ol1 li {
     position: relative;
     display: block;
 }
@@ -1108,7 +1118,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*LISTA DESORDENADA 1 ROSA*/
 #actividad .content .texto_curso .bck-ul1 li:before,
 #actividad .content .workspace ul li .bck-ul1 li:before,
-#actividad .content .cke_contents ul li .bck-ul1 li:before,
+#actividad .content .cke_contents .bck-ul1 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul1 li:before{
     width: 6px;
     height: 6px;
@@ -1118,7 +1128,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*LISTA DESORDENADA 2 AZUL*/
 #actividad .content .texto_curso .bck-ul2 li:before,
 #actividad .content .workspace ul li .bck-ul2 li:before,
-#actividad .content .cke_contents ul li .bck-ul2 li:before,
+#actividad .content .cke_contents .bck-ul2 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul2 li:before{
     width: 6px;
     height: 6px;
@@ -1128,7 +1138,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*LISTA DESORDENADA 3 morada*/
 #actividad .content .texto_curso .bck-ul3 li:before,
 #actividad .content .workspace ul li .bck-ul3 li:before,
-#actividad .content .cke_contents ul li .bck-ul3 li:before,
+#actividad .content .cke_contents .bck-ul3 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul3 li:before{
     width: 6px;
     height: 6px;
@@ -1138,7 +1148,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*LISTA DESORDENADA 4 verde*/
 #actividad .content .texto_curso .bck-ul4 li:before,
 #actividad .content .workspace ul li .bck-ul4 li:before,
-#actividad .content .cke_contents ul li .bck-ul4 li:before,
+#actividad .content .cke_contents .bck-ul4 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul4 li:before{
     width: 6px;
     height: 6px;
@@ -1148,7 +1158,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*LISTA DESORDENADA 5 CUADRADOS*/
 #actividad .content .texto_curso .bck-ul5 li:before,
 #actividad .content .workspace ul li .bck-ul5 li:before,
-#actividad .content .cke_contents ul li .bck-ul5 li:before,
+#actividad .content .cke_contents .bck-ul5 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul5 li:before{
 	height: 12px;
     text-align: center;
@@ -1168,7 +1178,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*LISTA DESORDENADA 6 FLECHAS*/
 #actividad .content .texto_curso .bck-ul6 li:before,
 #actividad .content .workspace ul li .bck-ul6 li:before,
-#actividad .content .cke_contents ul li .bck-ul6 li:before,
+#actividad .content .cke_contents .bck-ul6 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul6 li:before{
  	content: '\f101';
     font-family: FontAwesome;
@@ -1182,7 +1192,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*LISTA DESORDENADA 7 Naranja*/
 #actividad .content .texto_curso .bck-ul7 li:before,
 #actividad .content .workspace ul li .bck-ul7 li:before,
-#actividad .content .cke_contents ul li .bck-ul7 li:before,
+#actividad .content .cke_contents .bck-ul7 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul7 li:before{
     width: 6px;
     height: 6px;
@@ -1191,7 +1201,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*LISTA DESORDENADA 8 Amarilla*/
 #actividad .content .texto_curso .bck-ul8 li:before,
 #actividad .content .workspace ul li .bck-ul8 li:before,
-#actividad .content .cke_contents ul li .bck-ul8 li:before,
+#actividad .content .cke_contents .bck-ul8 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul8 li:before{
     width: 6px;
     height: 6px;
