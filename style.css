@@ -2463,6 +2463,14 @@ body:not(.edit) .bck-flipbox-face.back {
  	box-shadow: none;
  	border: 2px solid var(--colorppal)
 }
+.shortanswer-container textarea:focus,
+ .shortanswer-container input:focus,
+  .shortanswer-container .preview:focus {
+  	border: 2px solid var(--colorppal);
+  	-moz-box-shadow: none;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+}
 
 /* Slides */
 /*  Clasificar */
