@@ -155,7 +155,7 @@
 		font-weight: bold;
 	    font-size: 2.5rem;
 	    text-align: left;
-	    padding-top: 11px;
+	    padding-top: 0;
 		}
 
 	.content_type_clase_smchile2021 #actividad .content .header .title h3 span {
@@ -168,7 +168,7 @@
 		position: absolute;
 	    background: white;
 	    color: var(--colorppal);
-	    width: 72px;
+	    width: 67px;
 	    height: 80px;
 	    left: -97px;
 	    text-align: center;
@@ -1933,7 +1933,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 
 .bck-box.bck-box22 > .bck-title {
-	background: white;
+	background: none;
     display: inline-block;
     padding: 5px 12px;
     font-family: 'Pixilate JollyGood', sans-serif;
