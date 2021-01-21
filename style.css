@@ -2008,6 +2008,44 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     border: 1px solid #656f75;
 }
 
+/* CAJA 25*/
+.bck-box.bck-box25 {
+	-moz-border-image: url(images/Bordecaja25.png) stretch;
+    -webkit-border-image: url(images/Bordecaja25.png) stretch;
+    border-image: url(images/Bordecaja25.png) stretch;
+    position: relative;
+    border-image-slice: 120;
+    border-image-width: 45px;
+}
+
+/* CAJA 26*/
+.bck-box.bck-box26 {
+    border: 0;
+}
+.bck-box.bck-box26 > .bck-title {
+	background: #fbba00;
+    display: inline-block;
+    padding: 2px 12px;
+    font-family: 'Pixilate JollyGood', sans-serif;
+    color: white;
+    font-size: 1.8rem;
+    position: relative;
+}
+.bck-box26 > .bck-title:after {
+	content: "";
+    position: absolute;
+    right: -9px;
+    TOP: 0px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 9px solid #fbba00;
+    border-bottom: 15px solid transparent;
+}
+.bck-box.bck-box26 > .bck-content {
+    background: #EEF2F3;
+    border-left: 2px solid #fbba00;
+}
 
 /*TABLA POR DEFECTO*/
 
