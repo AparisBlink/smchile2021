@@ -168,20 +168,20 @@
 		position: absolute;
 	    background: white;
 	    color: var(--colorppal);
-	    width: 65px;
-	    height: 50px;
+	    width: 72px;
+	    height: 80px;
 	    left: -97px;
 	    text-align: center;
-	    padding-top: 0;
-	    font-size: 49px;
+	    padding: 12px 0px 0px 11px;
+	    font-size: 61px;
 	    font-family: 'Durotype Aspira', sans-serif;
-	    margin-top: -12px; 
+	    top: -30px;
 	}
 	.content_type_clase_smchile2021 #actividad .content .header .title .header1:before {
 		width: 0;
-	    height: 0;
-	    border-top: 25px solid transparent;
-	    border-bottom: 25px solid transparent;
+	    height: 0px;
+	    border-top: 40px solid transparent;
+	    border-bottom: 40px solid transparent;
 	    border-left: 22px solid white;
 	    position: absolute;
 	    content: "";
