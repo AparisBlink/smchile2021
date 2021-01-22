@@ -73,6 +73,7 @@
 				{ name: 'L.Des 6', element: 'ul', attributes: { 'class': 'bck-ul bck-ul6' } },
 				{ name: 'L.Des Naranja 7', element: 'ul', attributes: { 'class': 'bck-ul bck-ul7' } },
 				{ name: 'L.Des Amarilla 8', element: 'ul', attributes: { 'class': 'bck-ul bck-ul8' } },
+				{ name: 'L.Des Check', element: 'ul', attributes: { 'class': 'bck-ul bck-ul9' } },
 
 				{ name: 'Box 01 ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } },
 				{ name: 'Box 02 Escrito mano', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box2' } },
@@ -101,6 +102,7 @@
 				{ name: 'Box 25 Cuadro Gris', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box25' } },
 				{ name: 'Box 26 Flecha y fondo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box26' } },
 				{ name: 'Box 27 Recursos Prod', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box27' } },
+				{ name: 'Box 27 Recursos Compr', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box28' } },
 				
 				{ name: 'Tabla 02 Gris', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				{ name: 'Tabla 03 Azul', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
