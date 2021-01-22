@@ -2310,6 +2310,35 @@ th {
 	width: 191px;
     height: 58px;
 }
+
+/* Icono Planifica*/
+.item-container .icon-planifica:before {
+    background-image: url(images/icono_planifica.png);
+    width: 80px;
+    height: 55px;
+}
+
+/* Icono Escribe*/
+.item-container .icon-escribe:before {
+    background-image: url(images/icono_escribe.png);
+    width: 80px;
+    height: 55px;
+}
+
+/* Icono Revisa*/
+.item-container .icon-revisa:before {
+    background-image: url(images/icono_revisa.png);
+    width: 80px;
+    height: 55px;
+}
+
+/* Icono Publica*/
+.item-container .icon-publica:before {
+    background-image: url(images/icono_publica.png);
+    width: 80px;
+    height: 55px;
+}
+
 /*-----*/
 
 /* Pie de foto e imágenes*/
