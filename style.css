@@ -2072,49 +2072,86 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /* CAJA 27 - Recursos Prod*/
 .bck-box.bck-box27 {
     position: relative;
-}
-
-.bck-box.bck-box27 > .bck-title {
-    font-family: 'Conv_Hanoded_ButterflyBall';
-    color: #009FE3;
-    font-size: 2.0rem;
-    padding: 0 0 0 10px;
-    background: white;
-    display: inline-block;
-}
-
-.bck-box27 > .bck-content {
     -moz-border-image: url(images/caja_recursosprod.png) stretch;
     -webkit-border-image: url(images/caja_recursosprod.png) stretch;
     border-image: url(images/caja_recursosprod.png) stretch;
-    border-image-slice: 40;
+    border-image-slice: 100;
     border-image-width: 40;
-    border-image-outset: 11;
+    border-image-outset: 7;
+    margin-bottom: 20px;
+}
+.bck-box.bck-box27 > .bck-title {
+	font-family: 'Conv_Hanoded_ButterflyBall';
+    color: #009FE3;
+    font-size: 2.2rem;
+    padding: 0 15px 0 50px;
+    background: #ffffff;
+    display: inline-block;
+    position: relative;
+    margin-top: -9px;
+    -moz-border-radius: 0px 0 5px 0px;
+    -webkit-border-radius: 0px 0 5px 0px;
+    border-radius: 0px 0 5px 0px;
+}
+.bck-box27 > .bck-title:before {
+    content: "";
+    background-image: url(images/titulo_recursos_comprension.png);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -22px;
+    left: -15px;
+}
+.bck-box27 > .bck-content {
+    background-color: #eaf6fe;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
 }
 
 /* CAJA 28 - Recursos Compresion*/
 .bck-box.bck-box28 {
     position: relative;
-}
-
-.bck-box.bck-box28 > .bck-title {
-    font-family: 'Conv_Hanoded_ButterflyBall';
-    color: #009FE3;
-    font-size: 2.0rem;
-    padding: 0 0 0 10px;
-    background: white;
-    display: inline-block;
-}
-
-.bck-box28 > .bck-content {
     -moz-border-image: url(images/caja_recursosprod.png) stretch;
     -webkit-border-image: url(images/caja_recursosprod.png) stretch;
     border-image: url(images/caja_recursosprod.png) stretch;
-    border-image-slice: 40;
+    border-image-slice: 100;
     border-image-width: 40;
-    border-image-outset: 11;
+    border-image-outset: 7;
+    margin-bottom: 20px;
 }
-
+.bck-box.bck-box28 > .bck-title {
+	font-family: 'Conv_Hanoded_ButterflyBall';
+    color: #009FE3;
+    font-size: 2.2rem;
+    padding: 0 15px 0 50px;
+    background: #ffffff;
+    display: inline-block;
+    position: relative;
+    margin-top: -9px;
+    -moz-border-radius: 0px 0 5px 0px;
+    -webkit-border-radius: 0px 0 5px 0px;
+    border-radius: 0px 0 5px 0px;
+}
+.bck-box28 > .bck-title:before {
+    content: "";
+    background-image: url(images/titulo_recursos_produccion.png);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -22px;
+    left: -15px;
+}
+.bck-box28 > .bck-content {
+    background-color: #eaf6fe;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
 /*TABLA POR DEFECTO*/
 
 .content table:not(.rf-tablegrid) td,
