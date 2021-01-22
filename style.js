@@ -100,6 +100,7 @@
 				{ name: 'Box 24', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box24' } },
 				{ name: 'Box 25 Cuadro Gris', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box25' } },
 				{ name: 'Box 26 Flecha y fondo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box26' } },
+				{ name: 'Box 27 Recursos Prod', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box27' } },
 				
 				{ name: 'Tabla 02 Gris', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				{ name: 'Tabla 03 Azul', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
