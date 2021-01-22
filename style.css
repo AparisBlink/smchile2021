@@ -1241,7 +1241,25 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     height: 6px;
     background-color: #FBBA00;
 }
-
+/*LISTA DESORDENADA 9 - Check */
+#actividad .content .texto_curso .bck-ul9 li:before,
+#actividad .content .workspace ul li .bck-ul9 li:before,
+#actividad .content .cke_contents .bck-ul9 li:before,
+#actividad .popover-background.shown .popover-content .bck-ul9 li:before{
+	height: 12px;
+    text-align: center;
+    width: 16px;
+    position: relative;
+    display: inline-block;
+    padding: 0px 7px;
+    background: url(images/listacheck.png);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    left: -3px;
+}
 /* --- CAJAS ---*/
 .bck-box {
 	margin: 10px 0;
@@ -2051,11 +2069,21 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     border-left: 2px solid #fbba00;
 }
 
-/* CAJA 27*/
+/* CAJA 27 - Recursos Prod*/
 .bck-box.bck-box27 {
-	-moz-border-image: url(images/Bordecaja25.png) stretch;
-    -webkit-border-image: url(images/Bordecaja25.png) stretch;
-    border-image: url(images/Bordecaja25.png) stretch;
+	-moz-border-image: url(images/caja_recursosprod.png) stretch;
+    -webkit-border-image: url(images/caja_recursosprod.png) stretch;
+    border-image: url(images/caja_recursosprod.png) stretch;
+    position: relative;
+    border-image-slice: 120;
+    border-image-width: 45px;
+}
+
+/* CAJA 28 - Recursos Compresion*/
+.bck-box.bck-box28 {
+	-moz-border-image: url(images/caja_recursosprod.png) stretch;
+    -webkit-border-image: url(images/caja_recursosprod.png) stretch;
+    border-image: url(images/caja_recursosprod.png) stretch;
     position: relative;
     border-image-slice: 120;
     border-image-width: 45px;
