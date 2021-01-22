@@ -2071,22 +2071,48 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 
 /* CAJA 27 - Recursos Prod*/
 .bck-box.bck-box27 {
-	-moz-border-image: url(images/caja_recursosprod.png) stretch;
+    position: relative;
+}
+
+.bck-box.bck-box27 > .bck-title {
+    font-family: 'Conv_Hanoded_ButterflyBall';
+    color: #009FE3;
+    font-size: 2.0rem;
+    padding: 0 0 0 10px;
+    background: white;
+    display: inline-block;
+}
+
+.bck-box27 > .bck-content {
+    -moz-border-image: url(images/caja_recursosprod.png) stretch;
     -webkit-border-image: url(images/caja_recursosprod.png) stretch;
     border-image: url(images/caja_recursosprod.png) stretch;
-    position: relative;
-    border-image-slice: 120;
-    border-image-width: 45px;
+    border-image-slice: 40;
+    border-image-width: 40;
+    border-image-outset: 11;
 }
 
 /* CAJA 28 - Recursos Compresion*/
 .bck-box.bck-box28 {
-	-moz-border-image: url(images/caja_recursosprod.png) stretch;
+    position: relative;
+}
+
+.bck-box.bck-box28 > .bck-title {
+    font-family: 'Conv_Hanoded_ButterflyBall';
+    color: #009FE3;
+    font-size: 2.0rem;
+    padding: 0 0 0 10px;
+    background: white;
+    display: inline-block;
+}
+
+.bck-box28 > .bck-content {
+    -moz-border-image: url(images/caja_recursosprod.png) stretch;
     -webkit-border-image: url(images/caja_recursosprod.png) stretch;
     border-image: url(images/caja_recursosprod.png) stretch;
-    position: relative;
-    border-image-slice: 120;
-    border-image-width: 45px;
+    border-image-slice: 40;
+    border-image-width: 40;
+    border-image-outset: 11;
 }
 
 /*TABLA POR DEFECTO*/
