@@ -1196,7 +1196,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 #actividad .popover-background.shown .popover-content .bck-ul1 li:before{
     width: 6px;
     height: 6px;
-    background: var(--colorppal);
+    background: #E94287;
 }
 
 /*LISTA DESORDENADA 2 AZUL*/
@@ -2834,7 +2834,7 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 .unittag_bloque2 #actividad .content .texto_curso .bck-ul5 li:before,
 .unittag_bloque2 #actividad .content .workspace ul li .bck-ul5 li:before ,
 .unittag_bloque2 #actividad .popover-background.shown .popover-content .bck-ul5 li:before{
-    background: url(images/listacuadrados_Bloque2.png);
+    background-image: url(images/listacuadrados_Bloque2.png);
 }
 
 /*--*/
@@ -2870,7 +2870,7 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 .unittag_bloque3 #actividad .content .texto_curso .bck-ul5 li:before,
 .unittag_bloque3 #actividad .content .workspace ul li .bck-ul5 li:before ,
 .unittag_bloque3 #actividad .popover-background.shown .popover-content .bck-ul5 li:before{
-    background: url(images/listacuadrados_Bloque3.png);
+    background-image: url(images/listacuadrados_Bloque3.png);
 }
 /*--*/
 
@@ -2905,7 +2905,7 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 .unittag_bloque4 #actividad .content .texto_curso .bck-ul5 li:before,
 .unittag_bloque4 #actividad .content .workspace ul li .bck-ul5 li:before ,
 .unittag_bloque4 #actividad .popover-background.shown .popover-content .bck-ul5 li:before{
-    background: url(images/listacuadrados_Bloque4.png);
+    background-image: url(images/listacuadrados_Bloque4.png);
 }
 
 /*************/
