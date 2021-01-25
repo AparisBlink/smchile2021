@@ -441,12 +441,29 @@
 
 /**/
 
+
+/* MENÚ LATERAL DESPLEGABLE */
+body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
+ #book-index #indice .units ul li.active a {
+	background: var(--colorppal);
+ }
+ #book-index .col-main {
+ 	background: var(--colorppal);
+ }
+
 /* TOC */
 :root #indice {
 --colordeg: #000000;
 --colordeg2: #5B676C;
 --colorppal: #5C676D;
 }
+
+/* MENÚ LATERAL DESPLEGABLE */
+body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
+ #book-index #indice .units ul li.active a {
+
+ }
+
 
 #indice .units ul li {
     background: linear-gradient(99deg, var(--colordeg) 0%, var(--colordeg2) 100%);
