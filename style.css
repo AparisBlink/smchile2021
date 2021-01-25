@@ -498,6 +498,22 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     margin-left: 12px;
 }
 
+#indice .units ul li a:before {
+    content: "\f054";
+    font-family: 'FontAwesome';
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    margin-top: 12px;
+    opacity: 0;
+}
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover:before,
+ #indice .units ul li.active a:before {
+    padding: 0px 0px 0px 27px;
+    -moz-transition: padding 0.5s;
+    -webkit-transition: padding 0.5s;
+    transition: padding 0.5s;
+    opacity: 1;
+}
 /* --- TÍTULOS --- */
 
 /*TITULO 1*/
