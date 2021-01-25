@@ -334,10 +334,11 @@
 			padding-left: 40px;
 			padding-right: 40px;
 		}
-
 		.logo-publisher {
-			width: 40px;
-			background-image: url(Pearson-logo-2016-219x286.png);
+			background-image: url(images/logo-SM.png);
+			width: 56PX;
+		    top: -1px;
+    		left: 6px;
 		}
 	}
 
@@ -2908,3 +2909,10 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 }
 
 /*************/
+
+/* MEDIA QUERIES */
+@media (max-width: 579px) {
+.body_clase #actividad .carousel-inner .item-container {
+    margin-top: 0;
+}
+}
