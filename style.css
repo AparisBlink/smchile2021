@@ -413,6 +413,8 @@
 
     #indice .units ul li a:not(.delete) {
         padding: 0;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
         border-radius: 7px;
     }
     #indice .units ul li a .title {
@@ -631,6 +633,8 @@
         top: -0.5em;
         width: 6px;
         padding: 2px 5px;
+       -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
         border-radius: 20px;
         height: 12px;
         color: white;
@@ -1285,6 +1289,8 @@
         color: white;
         font-weight: 600;
         display: inline-block;
+        -moz-border-radius: 5px 5px 0 0;
+        -webkit-border-radius: 5px 5px 0 0;
         border-radius: 5px 5px 0 0;
         padding: 5px 10px 0 10px;
         position: relative;
@@ -1399,6 +1405,8 @@
         color: white;
         font-weight: 600;
         display: inline-block;
+        -moz-border-radius: 5px 5px 0 0;
+        -webkit-border-radius: 5px 5px 0 0;
         border-radius: 5px 5px 0 0;
         padding: 5px 10px 0 10px;
         position: relative;
@@ -1574,6 +1582,8 @@
         font-family: 'Conv_Hanoded_ButterflyBall';
         color: #CCE2FE;
         font-size: 1.8rem;
+        -moz-border-radius: 10px 10px 0 0;
+        -webkit-border-radius: 10px 10px 0 0;
         border-radius: 10px 10px 0 0;
         position: relative;
         left: 85px;
@@ -1658,6 +1668,8 @@
         color: var(--colorppal);
         font-weight: 600;
         display: inline-block;
+        -moz-border-radius: 5px 5px 0 0;
+        -webkit-border-radius: 5px 5px 0 0;
         border-radius: 5px 5px 0 0;
         padding: 5px 10px 0 10px;
         position: relative;
@@ -1703,6 +1715,8 @@
         font-weight: 600;
         display: inline-block;
         border-radius: 5px 5px 0 0;
+        border-radius: 5px 5px 0 0;
+        border-radius: 5px 5px 0 0;
         padding: 5px 10px 0 10px;
         position: relative;
         z-index: 2;
@@ -1739,6 +1753,8 @@
         color: white;
         font-weight: 600;
         display: inline-block;
+        -moz-border-radius: 5px 5px 0 0;
+        -webkit-border-radius: 5px 5px 0 0;
         border-radius: 5px 5px 0 0;
         padding: 5px 10px 0 10px;
         position: relative;
@@ -1768,7 +1784,9 @@
     .bck-box.bck-box18 {
         border: 1PX SOLID #eff4f9;
         background-color: #eff4f9;
-        BORDER-RADIUS: 10PX;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
     }
     .bck-box.bck-box18 > .bck-title {
         background: #ECE8D8;
@@ -1792,6 +1810,8 @@
     }
     .bck-box.bck-box18 > .bck-content {
         background: #EFF4F9;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
         border-radius: 10px;
         padding-top: 20px;
     }
@@ -1820,6 +1840,8 @@
         color: #0d0d0d;
         font-weight: 600;
         display: inline-block;
+        -moz-border-radius: 5px 5px 0 0;
+        -webkit-border-radius: 5px 5px 0 0;
         border-radius: 5px 5px 0 0;
         padding: 5px 10px 0 10px;
         position: relative;
@@ -1912,6 +1934,8 @@
     /*CAJA 22 MATERIALES*/
     .bck-box.bck-box22 {
         border: 0;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
         border-radius: 10px;
     }
     .bck-box.bck-box22 > .bck-title {
@@ -1936,6 +1960,8 @@
     .bck-box.bck-box22 > .bck-content {
         background: #ffffff;
         border: 2px solid #fbba00;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
         border-radius: 10px;
         padding-top: 25px;
     }
