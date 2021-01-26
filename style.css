@@ -62,7 +62,7 @@
 	font-style: normal;
 }
 
-/*título textos lengua*/ç
+/*título textos lengua*/
 @font-face {
 	font-family: 'Conv_CaeciliaLTStd-Roman';
 	src: url('fonts/CaeciliaLTStd-Roman.eot');
@@ -98,8 +98,11 @@
 
 	.content_type_clase_smchile2021 #actividad {
 		margin-bottom: 0px;
-		-webkit-transform: none;
 		-webkit-transform-style: flat;
+		transform-style: flat;
+		-moz-transform: none;
+        transform: none;
+        -webkit-transform: none;
 	}
 
 	#actividad .carousel-inner .item-container {
@@ -458,13 +461,6 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 --colorppal: #5C676D;
 }
 
-/* MENÚ LATERAL DESPLEGABLE */
-body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
- #book-index #indice .units ul li.active a {
-
- }
-
-
 #indice .units ul li {
     background: linear-gradient(99deg, var(--colordeg) 0%, var(--colordeg2) 100%);
     opacity: 0.8;
@@ -517,6 +513,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 
 #indice .units ul li a:before {
     content: "\f054";
+    color: var(--colorppal);
     font-family: 'FontAwesome';
     position: absolute;
     padding: 0px 0px 0px 0px;
@@ -526,6 +523,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover:before,
  #indice .units ul li.active a:before {
     padding: 0px 0px 0px 27px;
+    color: #fff;
     -moz-transition: padding 0.5s;
     -webkit-transition: padding 0.5s;
     transition: padding 0.5s;
@@ -1943,7 +1941,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover:before,
     left: 13px;
     z-index: -1;
     border: 1px solid #fbba00;
-    order-left: white;
+    border-left: white;
     border-top: white;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 4px;
@@ -2732,7 +2730,6 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 .slide.crosswords .enunciados .enunciado {
     padding: 7px 0px 5px 18px;
     font-size: 1.6rem;
-    margin-bottom: ;
 }
 /*Memory*/
 #actividad .workspace.memory .front {
