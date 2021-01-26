@@ -2703,11 +2703,17 @@ body:not(.edit) .bck-flipbox-face.back {
 }
 
 .fillblanks-draggable-wrapper .response {
-    border: 0px solid #d8d8d8;
-    background: #c1e5f7;
+    border: 1px solid var(--colortrans);
+    background: white;
     -moz-box-shadow: 2px 3px 5px #0000002e;
     -webkit-box-shadow: 2px 3px 5px #0000002e;
     box-shadow: 2px 3px 5px #0000002e;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+.fillblanks-draggable-wrapper .response.respuesta_over {
+    background-color: var(--colortrans);
 }
 
 .fillblanks-draggable-wrapper .response .bck-i-fullscreen-wrapper {
