@@ -143,7 +143,7 @@
 		margin-top: 10px;
 		color: #fff;
 		font-weight: bold;
-	    font-size: 2.5rem;
+	    font-size: 2.8rem;
 	    text-align: left;
 	    padding-top: 0;
 	}
@@ -1916,12 +1916,13 @@
         padding: 0px;
     }
     .bck-box.bck-box21 > .bck-content{
+    	position: relative;
         padding: 10px;
     }
     .bck-box.bck-box21 > .bck-content:before {
         content: "";
         position: absolute;
-        LEFT: -10px;
+        left: -10px;
         margin-top: 15px;
         border-right: -3px solid transparent;
         width: 0;
@@ -2857,5 +2858,8 @@ body.content_type_clase_smchile2021 #actividad .content .fillblanks-draggable
 @media (max-width: 579px) {
 .body_clase #actividad .carousel-inner .item-container {
     margin-top: 0;
+}
+.content_type_clase_smchile2021 #actividad .content .header .title {
+    padding: 20px 30px 20px 97px;	
 }
 }
