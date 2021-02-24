@@ -1,198 +1,198 @@
 (function (blink) {
 	'use strict';
 
-	var smchile2021Style = function () {
+	var cengage2021demoStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	smchile2021Style.prototype = {
+	cengage2021demoStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_smchile2021',
+		bodyClassName: 'content_type_clase_cengage2021demo',
+		extraPlugins: ['cambridge_dropdown', 'blink_video_inline'],
 		ckEditorStyles: {
-			name: 'smchile2021',
+			name: 'cengage2021demo',
 			styles: [
+				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
+				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title2'} },
+				{ name: 'Título video', element: 'h4', attributes: { 'class': 'titlevideo'} },
+				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Título 04 Basic', element: 'h4', attributes: { 'class': 'bck-title04'} },
+				{ name: 'Título 05 Basic', element: 'h4', attributes: { 'class': 'bck-title05'} },
+				{ name: 'Título 06 Basic', element: 'h4', attributes: { 'class': 'bck-title06'} },
 
-				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
-				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title bck-title2'} },
-				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title bck-title3'} },
-				{ name: 'Título 4', element: 'h4', attributes: { 'class': 'bck-title bck-title4'} },
-				{ name: 'Título 5', element: 'h4', attributes: { 'class': 'bck-title bck-title5'} },
-				{ name: 'Título 6', element: 'h4', attributes: { 'class': 'bck-title bck-title6'} },
-				{ name: 'Título 7', element: 'h4', attributes: { 'class': 'bck-title bck-title7'} },
-				{ name: 'Título 8', element: 'h4', attributes: { 'class': 'bck-title bck-title8'} },
 
-				{ name: 'Énfasis 01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
-				{ name: 'Énfasis 02', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
-				{ name: 'Énfasis 03', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
-				{ name: 'Énfasis 04', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
-				{ name: 'Énfasis 05', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
-				{ name: 'Énfasis 06', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
-				{ name: 'Énfasis 07 Color B1', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
-				{ name: 'Énfasis 08 Color B2', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
-				{ name: 'Énfasis 09 Color B3', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
-				{ name: 'Énfasis 10 Color B4', element: 'span', attributes: { 'class': 'bck-enfasis-10'} },
-				{ name: 'Énfasis 11 Resaltar', element: 'span', attributes: { 'class': 'bck-enfasis-11'} },
-				{ name: 'Énfasis 12 Corchetes', element: 'span', attributes: { 'class': 'bck-enfasis-12'} },
+				{ name: 'Enfasis audio', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+				{ name: 'Enfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis-02'} },
+				{ name: 'Enfasis 3', element: 'span', attributes: { 'class': 'bck-enfasis-03'} },
+				{ name: 'Enfasis 4', element: 'span', attributes: { 'class': 'bck-enfasis-04'} },
+				{ name: 'Enfasis 5', element: 'span', attributes: { 'class': 'bck-enfasis-05'} },
 
-				{ name: 'Icono Reciclaje', element: 'span', attributes: { 'class': 'icon icon-reciclaje' } },
-				{ name: 'Icono Taller ciencia', element: 'span', attributes: { 'class': 'icon icon-taller' } },
-				{ name: 'Icono Ciencia Chile', element: 'span', attributes: { 'class': 'icon icon-cienciachile' } },
-				{ name: 'Icono antes de leer', element: 'span', attributes: { 'class': 'icon icon-antesleer' } },
-				{ name: 'Icono durante lectura', element: 'span', attributes: { 'class': 'icon icon-duranteleer' } },
-				{ name: 'Icono despues de leer', element: 'span', attributes: { 'class': 'icon icon-despuesleer' } },
-				{ name: 'Icono Planifica', element: 'span', attributes: { 'class': 'icon icon-planifica' } },
-				{ name: 'Icono Escribe', element: 'span', attributes: { 'class': 'icon icon-escribe' } },
-				{ name: 'Icono Revisa', element: 'span', attributes: { 'class': 'icon icon-revisa' } },
-				{ name: 'Icono Publica', element: 'span', attributes: { 'class': 'icon icon-publica' } },
+				{ name: 'Caja negra', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-negra' } },
+				{ name: 'Caja learning', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-learning' } },
+				{ name: 'Caja useful', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-useful' } },
+				{ name: 'Caja azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-azul' } },
+				{ name: 'Caja amarilla', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-amarilla' } },
+				{ name: 'Caja Exam Task', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-actividad' } },
+				{ name: 'Caja Ideas Focus', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-tip' } },
+				{ name: 'Caja 01 Basic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-01' } },
+				{ name: 'Caja 02 Basic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-02' } },
+				{ name: 'Caja 03 Basic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-03' } },
+				{ name: 'Caja 04 Basic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-04' } },
+				{ name: 'Caja 05 Basic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-05' } },
 
-				{ name: 'L 123 F.Gris', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
-				{ name: 'L abc Gris', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
-				{ name: 'L 123 Rosa', element: 'ol', attributes: { 'class': 'bck-ol bck-ol3' } },
-				{ name: 'L 123 F.Rosa', element: 'ol', attributes: { 'class': 'bck-ol bck-ol4' } },
-				{ name: 'L abc Rosa', element: 'ol', attributes: { 'class': 'bck-ol bck-ol5' } },
-				{ name: 'L 123 Azul', element: 'ol', attributes: { 'class': 'bck-ol bck-ol6' } },
-				{ name: 'L 123 F.Azul', element: 'ol', attributes: { 'class': 'bck-ol bck-ol7' } },
-				{ name: 'L abc Azul', element: 'ol', attributes: { 'class': 'bck-ol bck-ol8' } },
-				{ name: 'L 123 Morado', element: 'ol', attributes: { 'class': 'bck-ol bck-ol9' } },
-				{ name: 'L 123 F.Morado', element: 'ol', attributes: { 'class': 'bck-ol bck-ol10' } },
-				{ name: 'L abc Morado', element: 'ol', attributes: { 'class': 'bck-ol bck-ol11' } },
-				{ name: 'L 123 Verde', element: 'ol', attributes: { 'class': 'bck-ol bck-ol12' } },
-				{ name: 'L 123 F.Verde', element: 'ol', attributes: { 'class': 'bck-ol bck-ol13' } },
-				{ name: 'L abc Verde', element: 'ol', attributes: { 'class': 'bck-ol bck-ol14' } },
-				{ name: 'L 123 F.Naranja', element: 'ol', attributes: { 'class': 'bck-ol bck-ol15' } },
-				{ name: 'L 123 Naranja', element: 'ol', attributes: { 'class': 'bck-ol bck-ol16' } },
-				{ name: 'L abc Naranja', element: 'ol', attributes: { 'class': 'bck-ol bck-ol17' } },
 
-				{ name: 'L.Des 01 Rosa', element: 'ul', attributes: { 'class': 'bck-ul bck-ul1' } },
-				{ name: 'L.Des 02 Azul', element: 'ul', attributes: { 'class': 'bck-ul bck-ul2' } },
-				{ name: 'L.Des 03 Morado', element: 'ul', attributes: { 'class': 'bck-ul bck-ul3' } },
-				{ name: 'L.Des 04 Verde', element: 'ul', attributes: { 'class': 'bck-ul bck-ul4' } },
-				{ name: 'L.Des 05', element: 'ul', attributes: { 'class': 'bck-ul bck-ul5' } },
-				{ name: 'L.Des 06', element: 'ul', attributes: { 'class': 'bck-ul bck-ul6' } },
-				{ name: 'L.Des 07 Naranja', element: 'ul', attributes: { 'class': 'bck-ul bck-ul7' } },
-				{ name: 'L.Des 08 Amarilla', element: 'ul', attributes: { 'class': 'bck-ul bck-ul8' } },
-				{ name: 'L.Des 09 Check', element: 'ul', attributes: { 'class': 'bck-ul bck-ul9' } },
+				{ name: 'Lista Ordenada Alpha roja', element: 'ol', attributes: { 'class': 'bck-ol' } },
+				{ name: 'Lista Ordenada Alpha negra', element: 'ol', attributes: { 'class': 'bck-ol-4' } },
+				{ name: 'Lista Ordenada Numeral Negra', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
+				{ name: 'Lista Ordenada Lower-Alpha', element: 'ol', attributes: { 'class': 'bck-ol-5' } },
 
-				{ name: 'Box 01 ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } },
-				{ name: 'Box 02 Escrito mano', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box2' } },
-				{ name: 'Box 03 Simple gris', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box3' } },
-				{ name: 'Box 04 Bocadillo morado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box4' } },
-				{ name: 'Box 05', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box5' } },
-				{ name: 'Box 06 Ciencia Const', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box6' } },
-				{ name: 'Box 07', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box7' } },
-				{ name: 'Box 08 100 ancho', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box8' } },
-				{ name: 'Box 09 Borde Auto', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box9' } },
-				{ name: 'Box 10 Desafio', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box10' } },
-				{ name: 'Box 11 Texto nº', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box11' } },
-				{ name: 'Box 12 Lectura crítica', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box12' } },
-				{ name: 'Box 13 Borde Amarillo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box13' } },
-				{ name: 'Box 14 Flecha Amarilla', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box14' } },
-				{ name: 'Box 15 Pensamiento mate', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box15' } },
-				{ name: 'Box 16', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box16' } },
-				{ name: 'Box 17', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box17' } },
-				{ name: 'Box 18 DOC', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box18' } },
-				{ name: 'Box 19 Cuaderno', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box19' } },
-				{ name: 'Box 20', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box20' } },
-				{ name: 'Box 21', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box21' } },
-				{ name: 'Box 22 Materiales', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box22' } },
-				{ name: 'Box 23', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box23' } },
-				{ name: 'Box 24', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box24' } },
-				{ name: 'Box 25 Cuadro Gris', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box25' } },
-				{ name: 'Box 26 Flecha y fondo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box26' } },
-				{ name: 'Box 27 Recursos Prod', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box27' } },
-				{ name: 'Box 28 Recursos Compr', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box28' } },
-				
-				{ name: 'Tabla 02 Gris', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
-				{ name: 'Tabla 03 Azul', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
-				{ name: 'Tabla 04 Marron', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-4'} },
-				{ name: 'Tabla 05 Morada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-5'} },
-				{ name: 'Tabla 06 Verde', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-6'} },
-				{ name: 'Tabla 07 Rosa', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-7'} },
-				{ name: 'Tabla 08 Verde claro', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-8'} },
-				{ name: 'Tabla 09 Amarilla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-9'} },
-				{ name: 'Tabla 10 Naranja', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-10'} },
-				
-				{ name: 'Celda 02 Gris', element: 'td', attributes: { 'class': 'bck-td-2'} },
-				{ name: 'Celda 03 Azul', element: 'td', attributes: { 'class': 'bck-td-3'} },
-				{ name: 'Celda 04 Azul', element: 'td', attributes: { 'class': 'bck-td-4'} },
-				{ name: 'Celda 05 Azul', element: 'td', attributes: { 'class': 'bck-td-5'} },
-				{ name: 'Celda 06 Marron', element: 'td', attributes: { 'class': 'bck-td-6'} },
-				{ name: 'Celda 07 Marron', element: 'td', attributes: { 'class': 'bck-td-7'} },
-				{ name: 'Celda 08 Morada', element: 'td', attributes: { 'class': 'bck-td-8'} },
-				{ name: 'Celda 09 Morada', element: 'td', attributes: { 'class': 'bck-td-9'} },
-				{ name: 'Celda 10 Verde', element: 'td', attributes: { 'class': 'bck-td-10'} },
-				{ name: 'Celda 11 Verde', element: 'td', attributes: { 'class': 'bck-td-11'} },
-				{ name: 'Celda 12 Rosa', element: 'td', attributes: { 'class': 'bck-td-12'} },
-				{ name: 'Celda 13 Verde CL', element: 'td', attributes: { 'class': 'bck-td-13'} },
-				{ name: 'Celda 14 Verde CL', element: 'td', attributes: { 'class': 'bck-td-14'} },
-				{ name: 'Celda 15 Amarilla', element: 'td', attributes: { 'class': 'bck-td-15'} },
-				{ name: 'Celda 16 Amarilla', element: 'td', attributes: { 'class': 'bck-td-16'} },
-				{ name: 'Celda 17 Naranja', element: 'td', attributes: { 'class': 'bck-td-17'} },
+				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'desplegable-2' } }
 			]
 		},
 
-		init: function (scope) {
-			var that = scope || this;
+		init: function () {
 			//BK-15873 Utilizamos this.parent declarada al inicio de la clase
-			this.parent.init.call(that);
-			that.addActivityTitle();
+			this.parent.init.call(this);
+			this.addActivityTitle();
 			if(window.esWeb) return;
-			that.removeFinalSlide();
-			that.handleScrollEnd();
-			that.setTooltip();
-			window.editar && that.configEditor();
-
-			if ($('.navbar-bottom').length > 0) {
- 				$('.navbar-bottom ol').wrapAll('<div id="bottom-navigator"></div>');
-		 		var width = 0;
-		 		$('.navbar-bottom li').each(function(i, elem){ width += $(elem).outerWidth(true); });
-		 		$('.navbar-bottom ol').css('width', width * 1.1);
-		 		var scroll = new IScroll('#bottom-navigator', {
-		 			scrollX: true,
-		 			scrollY: false,
-		 			eventPassthrough: true
-		 		});
-		 		scroll.on('scrollEnd', that.handleScrollEnd);
-		 		that.handleScrollEnd.call(scroll);
-	 		}
-
+			this.formatCarouselindicators();
+			this.addSlideNavigators();
 		},
 
-		configEditor: function (editor) {
-			editor.dtd.$removeEmpty['span'] = false;
+		removeFinalSlide: function () {
+			//BK-15873 Utilizamos this.parent declarada al inicio de la clase
+			this.parent.removeFinalSlide.call(this, true);
 		},
 
+		setCanvasSize: function (index) {
+			if (blink.windowWidth < 1024) return;
+			var prefix = 't'+index,
+				slide = window[prefix+'_slide'],
+				$slide = $('#transp' + index),
+				slideHeight = $slide.closest('.item-container').show().height(),
+				slideWidth = $slide.width(),
+				$canvas = $slide.find('#canvas-wrapper canvas');
+
+			if (slide && slide.isConcatenate) {
+				$canvas.hideBlink();
+			} else {
+				$canvas.attr({height: slideHeight});
+				if(typeof blink.tools.manager.tools.pencil !== 'undefined'){
+					if(slideWidth){
+						blink.tools.manager.tools.pencil.setCanvasSize(prefix, slideHeight, slideWidth);
+					}else{
+						blink.tools.manager.tools.pencil.setCanvasHeight(prefix, slideHeight);
+					}
+				}
+				redrawCanvas();
+			}
+		},
 
 		addActivityTitle: function () {
 			if (!blink.courseInfo || !blink.courseInfo.unit) return;
 			$('.libro-left').find('.title').html(function () {
-				return $(this).html().trim() + ' > ' + blink.courseInfo.unit;
-			});
+				return $(this).html() + ' > ' + blink.courseInfo.unit;
+			})
 		},
 
-		handleScrollEnd: function () {
- 			$('#bottom-navigator')
- 				.removeClass('show_left')
- 				.removeClass('show_right');
+		formatCarouselindicators: function () {
+			var $navbarBottom = $('.navbar-bottom'),
+				$carouselIndicators = $('.slider-indicators').find('li');
 
- 			if (this.x < 0) {
- 				$('#bottom-navigator').addClass('show_left');
- 			}
- 			if (this.x > this.maxScrollX) {
- 				$('#bottom-navigator').addClass('show_right');
- 			}
+			$carouselIndicators.tooltip('destroy');
 
- 		},
+			var navigatorIndex = 0;
+			for (var index = 0; index < window.secuencia.length; index++) {
+				var slide = eval('t'+index+'_slide'),
+					slideTitle = slide.title;
 
-		setTooltip: function () {},
+				if (slide.isConcatenate) continue;
 
-		//BK-15873 Quitamos la funcion getEditorStyles para que la herede de basic
+				$navbarBottom.find('li').eq(navigatorIndex).html('<span>'+stripHTML(slideTitle)+'</span>');
+				navigatorIndex++;
+
+			};
+
+			$navbarBottom
+				.attr('class', 'publisher-navbar')
+				.wrapInner('<div class="navbar-content"></div>')
+				.find('ol')
+					.wrap('<div id="top-navigator"/>');
+
+			if (!blink.hasTouch) {
+				$navbarBottom
+					.find('ol').find('span')
+						.tooltip({
+							placement: 'bottom',
+							container: 'body'
+						});
+			}
+		},
+
+		//BK-15873 Se quita la funcion getEditorStyles para que la herede de parent
+
+		bindEventsToEditor: function (editor) {
+			editor.on('paste', function (event) {
+				event.data.dataValue = event.data.dataValue.replace(/ style="[a-zA-Z0-9:;\.\s\(\)\-\,]*"/gi, '');
+			});
+		}
 	};
 
-	smchile2021Style.prototype = _.extend({}, new blink.theme.styles.basic(), smchile2021Style.prototype);
+	cengage2021demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), cengage2021demoStyle.prototype);
 
-	blink.theme.styles.smchile2021 = smchile2021Style;
+	blink.theme.styles.cengage2021demo = cengage2021demoStyle;
 
 })( blink );
+
+$(document).ready(function () {
+
+    $('.item').find('.header').find('.title')
+		.filter(function () {
+			return $(this).find('.empty').length;
+		}).hideBlink();
+
+    $('.item').find('.header').find('.title')
+		.filter(function () {
+			return !$(this).find('.empty').length;
+		})
+		.each(function () {
+			var $header = $(this).find('h3');
+			$header.length && $header.html($header.html().replace(' ', ''));
+		});
+
+
+	$('.bck-tooltip').popover('destroy');
+	$('.bck-tooltip').popover({
+		html:true,
+		placement: 'auto top',
+		trigger: 'click',
+		container: 'body'
+	}).off("mouseenter").off("mouseleave");
+
+	$('#actividad').on('slide.bs.carousel', function (event) {
+		$('.bck-tooltip').popover('hide');
+	});
+
+	$('#actividad').on('slid.bs.carousel', function (event) {
+		$('.bck-tooltip').popover('hide');
+	});
+
+        $(".js-slider-item").on('scroll', function (e) {
+                $('.bck-tooltip').popover('hide');
+        });
+
+        $('.slider-control').on('tap, click', function(e){
+                $('.bck-tooltip').popover('hide');
+        });
+
+	$(".bck-cam-button").toggle(
+		function(){
+			$(this).parent('.bck-cam-dropdown').addClass('open').find(".bck-cam-dropdown-content").slideDown(300);
+    	},
+    	function(){
+    		$(this).parent('.bck-cam-dropdown').removeClass('open').find(".bck-cam-dropdown-content").slideUp(300);
+    	}
+	);
+});
